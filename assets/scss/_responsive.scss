@@ -7,509 +7,3578 @@ Responsive Style
 // Extra large devices (large desktops)
 // No media query since the extra-large breakpoint has no upper bound on its width\
 
+@media only screen and (max-width: 1920px) {
 
-@media only screen and (max-width: 1400px){
-
-
-    .testimonial .client button.owl-next {
-      
-        right: -5%;
+    section.hero-2 .hero-content p {
+        padding-right: 16%;
     }
-    .testimonial .client button.owl-prev {
-        left: -5%;
+    section.hero-2 .h2-img-bg {
+        height: 910px;
+    }
+    section.about-us-6::after{
+        z-index: 1;
+    }
+    section.hero-3 .designer-slide {
+        margin-top: 32%;
+        margin-right: -38%;
+        width: calc(100% + 73%);
     }
 
+}
+@media only screen and (min-width: 991.99px) {
+
+    .h-style2{
+    
+        .sm-mint{
+    
+        >li{
+            >a{
+                padding: 18px 17px;
+             >.sub-arrow {
+                    right: 2px;
+             }
+
+            }
+        }
+    }
+}    
+
+}
+@media only screen and (max-width: 1515px){
 
 
+    section.about-us-6 .about-img img.abi2-bg {
+        top: -33%;
+        right: -26%;
+    }
+    section.hero-3 .hero-3-content h1 {
+        font-size: 44px;
+        line-height: 57px;
+    }
+    section.hero-3 .hero-3-content p {
+        font-size: 26px;
+    }
+ 
+}
+@media only screen and (max-width: 1475px){
+
+
+    section.hero-1 .hero-content .animation-1 {
+        left: -17%;
+    }
+    section.hero-1 .hero-content .animation-4 {
+        left: -18%;
+    }
+    .h-style2 .sm-mint > li > a {
+        padding: 18px 12px;
+    }
 
 }
 
+@media only screen and (max-width: 1315px){
+
+    section.hero-1 .hero-content .animation-1 {
+        left: -7%;
+    }
+    section.hero-1 .hero-content .animation-4 {
+        left: -8%;
+    }
+    section.hero-1 .hero-img {
+        position: relative;
+        right: 0%;
+    }
+    section.hero-1 .hero-content .animation-6 {
+        position: absolute;
+        right: -7%;
+    }
+
+}
+
+
+// Large devices (desktops, less than 1200px)
+@media only screen and (min-width: 1200px) and (max-width: 1502px) {
+
+    section.hero-5 .hero-img {
+        padding: 10px;
+        margin-right: 0;
+        width: 100%;
+        padding-top: 15%;
+    }
+
+
+}
+// Large devices (desktops, less than 1200px)
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .h-style2 .sm-mint > li > a {
+        padding: 18px 10px;
+        font-size: 14px;
+    }
+    .h-style2 ul li p {
+        font-size: 14px;
+    }
+    .h-style2 ul li:nth-child(7) {
+        left: 60px;
+    }
+    .h-style2 ul li:nth-child(8) {
+        left: 65px;
+    }
+    section.hero-2 .hero-content::before {
+        top: -13%;
+        left: 4%;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 41px;
+        line-height: 55px;
+    }
+    section.hero-2 .hero-content p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    section.hero-3 .hero-3-content h1 {
+        font-size: 43px;
+        line-height: 55px;
+    }
+    section.hero-3 .hero-3-content p {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    section.hero-3 .hero-3-content {
+        padding: 250px 0px 128px;
+    }
+    section.about-us-6 .about-img img.abi2-bg {
+        top: -30%;
+        right: -12%;
+    }
+    section.about-us-6::after{
+        z-index: -1;
+    }
+
+}
+// Large devices (desktops, less than 1200px)
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+   
+    section.hero-1 .hero-content h1 {
+        font-size: 45px;
+        line-height: 66px;
+    }
+    .h-style2 .sm-mint > li > a > .sub-arrow {
+        display: none;
+    }
+    section.blog-page .single-bloge-post h1 {
+        font-size: 33px;
+        line-height: 43px;
+    }
+    section.blog-page .blog-sidebar .bs-post-wrapper .single-pb-post .s-pbp-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    section.about-niksta-1 .about-niksta-1-text {
+        padding-top: 0;
+    }
+    section.analytics .yearly-analytice .yearly-order .yearly-oredr-text h4 {
+  
+        font-size: 14px;
+    }
+    section.contact-us .single-contact .sc-text2 span {
+        padding-right: 0;
+    }
+    section.sign-up .sign-up-content h1 {
+        font-size: 41px;
+        line-height: 55px;
+    }
+    section.sign-up .sign-up-content p {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    section.sign-up .sign-up-content::before {
+ 
+        height: 400px;
+        width: 400px;
+    }
+    section.sign-up .sign-up-content {
+        margin-top: 100px;
+    }
+}
 @media  only screen and (min-width: 992px) and (max-width: 1199px) {
 
+    .h-style1 {
 
+        .sm-mint a, .sm-mint a:hover, .sm-mint a:focus, .sm-mint a:active, .sm-mint a.highlighted {
+          padding: 18px 20px !important;
+          font-size: 14px;
+
+
+        }
+    }
+    
     .sm-mint a .sub-arrow{
         display: none;
     }
-  
+    section.features .single-features .sf-content h3 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    section.service .single-service .ss-content p {
+        font-size: 14px;
+    }
+    section.hero-7 .hero-content h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    section.our-specialties .single-sp-details .s-sp-text p {
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    
+
 } //End min 992px to max 1199px
-// Medium devices (tablets, less than 1199px)
-@media  only screen and (min-width: 1199px){ 
 
-  
-    .sm-mint a.has-submenu {
-        padding-right: 34px;
-      }
 
-}
 @media  only screen and (max-width: 1199px) {
+    .h-style1 {
+        a.btn-1 {
+            padding: 18px 24px;
+        }
+        h2.nav-brand img {
+            width: 70%;
+        }       
+    }
+    section.about-us .about-content {
+        padding-top: 0;
+    }
+    section.about-us .about-content h1 {
+        line-height: 40px;
+        padding: 4px 0px;
+        font-size: 28px;
+    }
+    section.hero-1 .hero-content .animation-6 {
 
-    .sm-mint a, .sm-mint a:hover, .sm-mint a:focus, .sm-mint a:active, .sm-mint a.highlighted {
-        padding: 14px 12px;
-        font-size: 12px;
+        top: 23%;
     }
+    section.hero-1 .hero-img::before {
+        width: 33%;
+        right: -20%;
+        height: 135px;
+        bottom: -7px;
+    }
+    section.hero-1 .hero-content p {
+        font-size: 25px;
+        line-height: 31px;
+    }
+    section.hero-1 .hero-content h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+    section.hero-1 .hero-content .animation-2 {
+        left: 40%;
+    }
+    section.hero-1 .hero-content::before {
+        height: 289px;
+    }
+    section.features {
+        padding: 0px 0px 100px;
+    }
+    section.pricing nav .nav-tabs .nav-item.show .nav-link, section.pricing nav .nav-tabs .nav-link.active {
+        margin-top: -1px;
+    }
+    section.pricing nav p:first-child {
+        right: 24%;
+    }
+    section.pricing .price-catagory a {
+        left: 16%;
+    }
+    section.client-feedback .single-feedback .sf-client .text {
+        top: 5px;
+        left: -9%;
+    }
+    section.recent-blog .blog-slide-1 .r-blog .rb-text h3 {
 
-    .hero-area .hero-content {
-        padding: 250px 100px 220px;
+        font-size: 20px;
     }
-    .footer-area .footer-details .f-gallery ul li {
-        width: 80px;
-        height: 80px;
+    .h-style2 ul li:nth-child(7) a {
+        font-size: 11px;
+        padding: 5px 10px;
     }
-    .hero-2 .hero-content {
-        padding: 250px 0 219px;
+    .h-style2 ul li:nth-child(8) a {
+        font-size: 11px;
+        padding: 5px 10px;
     }
+    .h-style2 ul li:nth-child(7) {
+        left: 50px;
+        top: 16px;
+    }
+    .h-style2 ul li:nth-child(8) {
+        left: 70px;
+        top: 19px;
+    }
+    section.hero-2 .h2-img-bg {
+        margin-top: -18%;
+    }
+    section.hero-2 .hero-img img {
+        height: 430px;
+    }
+    section.hero-2 .hero-img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    .h-style2 ul li p {
+        padding: 0px 9px;
+        font-size: 14px;
+    }
+    section.hero-2 .h2-img-bg {
+        width: 36%;
+        height: 750px;
+    }
+    .h-style2 .sm-mint > li > a {
+        padding: 18px 9px !important;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 44px;
+        line-height: 49px;
+    }
+    section.hero-2 .hero-content p {
+        font-size: 22px;
+        line-height: 26px;
+        padding: 16px 0px;
+    }
+    section.hero-2::before {
+        width: 250px;
+        height: 250px;
+        left: 48%;
+    }
+    section.service .single-service .ss-content h3 {
+        padding-right: 0;
+    }
+    section.service .single-service {
+        padding: 15px;
+    }
+    .h-style3 .nh3-topber ul.ht3-list li a {
+        font-size: 10px;
+    }
+    .h-style3 .nav-brand a {
+        padding: 11px 11px 20px 20px;
+    }
+    section.about-us-6 .about-img img.abi2-bg {
+        display: none;
+    }
+    section.hero-3 .hero-3-content {
+        padding: 206px 0px 150px;
+    }
+    header.header-area.h-style3 {
+        padding: 0;
+    }
+    section.hero-3 .hero-3-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    section.hero-3 .hero-3-content p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    section.hero-3 .designer-slide {
+        left: 8%;
+    }
+    section.hero-3 .hero-3-content h1 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+    section.about-us-5::after{
 
-    .hero-3 .hero-content h1 {
-        font-size: 80px;
-        line-height: 85px;
+        display: none;
     }
-    .history {
+    section.about-us-5::before{
+        display: none;
+    }
+    section.about-us-5 .about-content::after{
+        display: none;
+    }
+    section.about-us-5 .about-content {
+        padding: 15px;
+    }
+    section.fun-fact .single-fune-fact p {
+        font-size: 16px;
+    }
+    section.mini-services .service-content h1 {
+        line-height: 32px;
+        padding: 5px 0px;
+        font-size: 28px;
+    }
+    section.about-us-6 .about-content {
+        padding: 0px 10px;
+    }
+    section.about-us-6 .about-content h1 {
+        font-size: 32px;
+    }
+    section.about-us-6::before {
+        width: 100px;
+        height: 100px;
+        left: 41%;
+        bottom: 12%;
+    }
+    section.about-us-6 {
+        padding: 150px 0px 60px;
+    }
+    section.about-us-6 .about-content::before {
+        width: 300px;
+        height: 300px;
+        top: 16%;
+        right: 17%;
+    }
+    section.about-us-6 .about-content .btn-2 {
+        margin-top: 23px;
+    }
+    section.about-us-6 .about-content::after{
+        display: none;
+    }
+    section.blog .single-blog .sb-text h1 {
+        font-size: 45px;
+        line-height: 43px;
+        padding: 7px 0px;
+    }
+    section.blog .single-blog .sb-text a .flaticon-arrow-pointing-to-right {
+        right: 17%;
+    }
+    section.blog .single-blog2 .sb-text h3 {
+        font-size: 21px;
+        line-height: 27px;
+        padding: 5px 0px;
+    }
+    section.blog .single-blog2 .sb-text h4 {
+        line-height: 28px;
+        font-size: 18px;
+    }
+    section.blog .single-blog2 .sb-text p {
+        line-height: 20px;
+    }
+    section.blog .sb-3 .sb-text h3 {
+        padding: 6px 0px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+    section.blog .sb-3 .sb-text p {
+        line-height: 22px;
+    }
+    section.about-us-6::after{
+        z-index: -1;
+    }
+    section.service-2 .single-service .ss-content h3 {
+        font-size: 19px;
+    }
+    section.about-us-7 .about-content a.btn-2 {
+        max-width: 150px;
+        padding: 9px 0px;
+    }
+    section.about-us-7 .about-content a.btn-3 {
+        max-width: 150px;
+        padding: 9px 0px;
+    }
+    section.about-us-7 .about-content h1 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    section.about-us-7 .about-content h3 {
+        font-size: 24px;
+        line-height: 42px;
+    }
+    section.about-us-7 .about-content {
+        padding: 100px 0px;
+    }
+    section.about-us-7 {
+        padding-top: 140px;
+    }
+    section.recent-blog2 .rb2-text h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    section.recent-blog2 .rb2-text p {
+        font-size: 16px;
+    }
+    section.hero-5 .hero-content h1 {
+        font-size: 43px;
+        line-height: 53px;
+    }
+    section.hero-5 .hero-content {
+        padding: 70px 0px;
+    }
+    section.hero-5 .hero-content p {
+        font-size: 21px;
+    }
+    section.hero-5 .hero-img {
+        position: relative;
+        padding: 40px;
+        margin-right: 0;
+        width: 100%;
+        padding-top: 15%;
+    }
+    section.hero-5::after {
+        height: 95%;
+    }
+    section.hero-5 {
+        padding-bottom: 0px;
+    }
+    section.features-2 {
+        padding: 80px 0px 20px;
         margin-top: 100px;
     }
-    .blog {
+    section.pricing-2 {
         margin-top: 100px;
     }
-    .commingsoon .com-logo {
-        margin: 0px auto 57px;
+    section.pricing-2 nav p:first-child {
+        right: 58%;
     }
-
-    .contact-area .contact-info .single-info {
-        padding: 30px 0;
+    section.pricing-2 nav p:last-child {
+        right: 36%;
     }
-    .contact-area {
-        margin-top: 80px;
+    section.features.dark2 {
+        padding: 100px 0px;
     }
-    .contact-area .contact-info {
-        margin-bottom: 80px;
-    }
-    .contact-area .contact-details .cd-text {
-        padding-right: 20%;
-        margin-top: 150px;
+    section.about-us-10.dark {
+        padding-top: 0;
     }
    
+    section.hero-7 .hero-content::before {
+        height: 530px;
+        width: 530px;
+        top: 24px;
+    }
+    section.advance-fetaures .single-advance-fetaures {
+        padding: 20px;
+    }
+    section.mobile-ui .mobile-ui-content h1 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    section.mobile-ui .mobile-ui-content p {
+        line-height: 23px;
+        font-size: 14px;
+    }
+    section.mobile-ui .mobile-ui-content .btn-2 {
+        max-width: 110px;
+        padding: 9px 0px;
+        font-size: 12px;
+    }
+    section.mobile-ui .mobile-ui-content .btn-3 {
+        max-width: 110px;
+        padding: 9px 0px;
+        font-size: 12px;
+    }
+    section.mobile-screen-slide {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    section.about-us-9.about-us-main {
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+    section.about-us-9.about-us-main .about-content {
+        padding-right: 0;
+        padding-top: 24%;
+    }
+    section.about-us-9.about-us-main .about-1::before {
+        height: 116%;
+    }
+    section.information .information-text h1 {
+        padding: 5px 0px;
+    }
+    section.our-specialties .our-specialties-details h1 {
+        line-height: 39px;
+        font-size: 30px;
+    }
+    section.blog-page .blog-details-item .bdi-1 .bdi-1-text h5 {
+        line-height: 22px;
+        font-size: 16px;
+    }
+    section.blog-page .blog-details-item .bdi-2 .bdi-2-text h5 {
+        line-height: 22px;
+        font-size: 16px;
+    }
+    section.pricing {
+        margin: 100px 0px;
+    }
+    section.payment-page .payment-method button {
+        font-size: 14px;
+    }
+    section.sign-up .signup-d2 {
+        padding-top: 0px;
+    }
+    section.portfolio .aspect__inner h3 {
+        left: 12%;
+    }
+    section.service-details-page .service-dp-text h1 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+    section.service-details-page {
+        margin-bottom: 80px;
+    }
+    
 } // End Max 1199px
 
+@media only screen and (max-width: 1091px){
+
+    /* .h-style2 ul li:nth-child(7) {
+        left: 59px;
+    }
+    .h-style2 ul li:nth-child(8) {
+        left: 62px;
+    }
+    .h-style2 .sm-mint > li > a {
+        font-size: 13px;
+    } */
+    .h-style2 ul li:nth-child(7) {
+       display: none;;
+    }
+    .h-style2 ul li:nth-child(8) {
+       display: none;
+    }
+    .h-style2 .sm-mint > li > a {
+        padding: 18px 16px;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    section.hero-2 .hero-content::before {
+        left: 0%;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content h1 {
+        line-height: 58px;
+        font-size: 53px;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content {
+        padding-left: 45px;
+    }
+}
 
 
+@media only screen and (max-width: 1043px){
+
+    section.hero-3 .hero-3-content h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    section.hero-3 .hero-3-content p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    section.hero-5::before {
+        height: 400px;
+        width: 400px;
+    }
+    section.user-guide {
+        width: 80%;
+    }
+    section.faq .card .card-header .accordion-toggle.collapsed {
+        display: block;
+        padding-right: 8%;
+    }
+  
+}  
 
 
 @media only screen and (min-width: 768px) and (max-width: 991.90px) {
 
-  
-    .sm-mint a {
-        font-size: 10px;
+    .h-style1 {
+        a.btn-1 {
+            padding: 12px 12px;
+            font-size: 13px;
+        }
+        h2.nav-brand img {
+            width: 60%;
+            padding: 0;
+        }
+        /* .sm-mint a, .h-style1 .sm-mint a:hover, .h-style1 .sm-mint a:focus, .h-style1 .sm-mint a:active, .h-style1 .sm-mint a.highlighted {
+            padding: 22px 8px;
+            font-size: 11px;
+        } */
+        .nav-brand a {
+            display: block;
+            padding: 20px 0px;
+        }
+         a.btn-1 {
+            padding: 12px 14px;
+            font-size: 12px;
+            top: 14px;
+        }
+        .sm-mint a .sub-arrow {
+            display: none;
+        }
+        .sm-mint>li>a {
+            padding: 13px 18px;
+            padding-right: 8px;
+            font-size: 12px;
+            font-weight: 500;
+          }
+          .sm-mint {
+            position: relative;
+            top: -52px;
+        }
+    } 
+    section.about-us .about-content h1 {
+        line-height: 33px;
+        padding: 4px 0px;
+        font-size: 24px;
     }
-    .sm-mint a .sub-arrow{
-        display: none;
+    section.about-us .about-content h1 {
+        line-height: 33px;
+        padding: 10px 0px;
+        font-size: 24px;
     }
-    .contact-area .contact-info .single-info p{
-        font-size: 10px;
+    section.about-us .about-content h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    section.about-us .about-content p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    section.features .single-features .sf-content h3 {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 10px 0px;
+    }
+    section.features .single-features {
+       
+        padding: 10px;
+    }
+    section.features .single-features .sf-content p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 7px;
+    }
+    section.features .single-features .sf-content a {
+        font-size: 15px;
+    }
+    section.features .single-features .sf-content .fe-icon {
+        margin-left: 10px;
+        padding-top: 3px;
+        font-size: 19px;
+    }
+    .price-catagory a.btn-2 {
+        max-width: 136px;
+        font-size: 15px;
+        padding: 10px 0px;
+        bottom: -7%;
+    }
+    section.pricing .price-catagory {
+        padding: 10px;
+    }
+    section.pricing .price-catagory p {
+        padding: 10px 10px 50px;
+    }
+    section.pricing .price-catagory h2 span {
+        font-size: 24px;
+    }
+    section.client-feedback .single-feedback .sf-client .text h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    section.client-feedback .single-feedback .sf-client .text p {
+        font-size: 14px;
+    }
+    section.client-feedback .single-feedback .sf-content {
+        padding: 35px 10px;
+    }
+    section.client-feedback .single-feedback .flaticon-quote {
+        top: 13%;
+        left: 3%;
+        font-size: 50px !important;
+    }
+    section.client-feedback {
+        padding: 0px 0px 50px;
+    }
+    section.recent-blog .blog-slide-1 .r-blog .rb-text h3 {
+        font-size: 15px;
         line-height: 20px;
     }
+    section.recent-blog .blog-slide-1 .r-blog .rb-text p {
+        padding: 4px 0px;
+        line-height: 18px;
+        font-size: 12px;
+    }
+    section.recent-blog .blog-slide-1 .r-blog .rb-text a {
+        font-size: 12px;
+    }
+    section.recent-blog .blog-slide-1 .r-blog .rb-text .fe-icon:before {
+        margin-left: 8px;
+        padding-top: 1px;
+        font-size: 18px;
+    }
+    section.subscrive .form-control {
+        font-size: 13px;
+        padding-left: 10px;
+        height: 50px;
+    }
+    section.subscrive .sub-btn {
+        height: 50px;
+        font-size: 13px;
+    }
+    section.footer-details .f-details h3{
 
-    .contact-area .contact-details .cd-info {
+        font-size: 18px;
+    }
+    section.footer-details .f-details .social li {
+        width: 35px;
+        height: 35px;
+    }
+    section.footer-details .f-details .social li i {
+        font-size: 15px;
+        padding: 9px;
+    }
+    #main-menu {
+        clear: both !important;
+    }
+    section.about-team .about-content p {
+        font-size: 15px;
+    }
+    section.about-us-5 .about-content p {
+        line-height: 23px;
+        font-size: 15px;
+    }
+    section.client-feedback-2 .single-feedback {
+        padding: 10px;
+    }
+    section.client-feedback .single-feedback .sf-content {
+        padding: 10px;
+    }
+    section.client-feedback-2 .single-feedback .sf-client {
+        padding: 10px 0px;
+    }
+    section.client-feedback .single-feedback .sf-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    section.client-feedback-2 .single-feedback .sf-client .text .flaticon-double-quotes {
+        font-size: 43px;
+    }
+    section.blog .single-blog .sb-text h2 {
 
-        padding: 30px 10px;
-        
+        font-size: 19px;
+        line-height: 25px;
+
+    }
+    section.blog .single-blog .sb-text h1 {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 7px 0px;
+    }
+    section.blog .single-blog .sb-text {
+        padding: 10px;
+    }
+    section.blog .single-blog .sb-text a {
+        font-size: 15px;
+    }
+    section.blog .single-blog .sb-text a .flaticon-arrow-pointing-to-right {
+        right: 26%;
+        font-size: 28px;
+    }
+    section.blog .single-blog2 .sb-text h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    section.blog .single-blog2 .sb-text h4 {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    section.blog .single-blog2 .sb-text p {
+        line-height: 16px;
+        font-size: 11px;
+    }
+    section.blog .single-blog2 .sb-text {
+        padding: 10px;
+    }
+    section.blog .single-blog2 .sb-text a {
+
+        padding-top: 2px;
+        font-size: 12px;
+    }
+    section.blog .sb-3 .sb-text h3 {
+        padding: 0px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    section.blog .sb-3 .sb-text h4 {
+        font-size: 14px;
+    }
+    section.blog .sb-3 .sb-text p {
+        line-height: 17px;
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    section.blog .single-blog.sb-3 .sb-text a {
+        font-size: 12px;
+    }
+    .left-pad {
+        padding-left: 35px !important;
+    }
+    section.fun-fact .single-fune-fact {
+        padding: 110px 0px;
+    }
+    section.fun-fact .single-fune-fact h1.sff {
+        line-height: 30px;
+        font-size: 33px;
+        padding-top: 14px;
+    }
+    section.about-us-7 .about-content a.btn-2 {
+        max-width: 105px;
+        font-size: 12px;
+        padding: 8px 0px;
+    }
+    section.about-us-7 .about-content a.btn-3 {
+        max-width: 105px;
+        font-size: 12px;
+        padding: 8px 0px;
+    }
+    section.about-us-7 .about-content h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    section.about-us-7 .about-content h3 {
+        font-size: 20px;
+        line-height: 33px;
+    }
+    section.about-us-7 .about-content {
+        padding: 60px 0px;
+    }
+    section.fun-fact-2 {
+        margin-top: 100px;
+    }
+
+    section.recent-blog2 .rb2-text {
+        padding: 15px;
+    }
+    section.recent-blog2 .rb2-text {
+        top: 24%;
+    }
+    section.recent-blog2 {
+        padding-bottom: 10px;
+    }
+
+    section.pricing-2 .price-details ul li {
+        font-size: 12px;
+        letter-spacing: 0;
+        padding: 7px 0px;
+        line-height: 15px;
     }
     
+    section.about-us-10 .about-1::before {
+        width: 320px;
+        height: 320px;
+        top: -40px;
+    }
+    section.features-2 .s-f-padding .single-features-2 h3 {
+        font-size: 17px;
+    }
+    section.about-us-10 {
+        padding-top: 150px !important;
+    }
+    section.features-2 .s-f-padding .single-features-2 p {
+        font-size: 14px;
+    }
+    section.about-us-9.dark .about-content h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    section.about-us-9.dark .about-content p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    section.about-us-9.dark .about-1 {
+        position: relative;
+        margin-left: -100px;
+        width: calc(100% + 100px);
+    }
+    section.about-us-10.dark {
+        padding-top: 50px !important;
+    }
+    section.about-us-10.dark .about-1 {
+        position: relative;
+        margin-left: 0;
+        width: 100%;
+    }
+    section.hero-7 .hero-content p {
+        font-size: 15px;
+        padding: 15px 0px;
+        padding-right: 0;
+        line-height: 27px;
+    }
+    section.hero-7 .hero-content h1 {
+        font-size: 33px;
+        line-height: 47px;
+    }
+    section.advance-fetaures .single-advance-fetaures {
+        padding: 20px 10px;
+    }
+    section.advance-fetaures .single-advance-fetaures .saf-content h3 {
+        font-size: 19px;
+    }
+    section.advance-fetaures .single-advance-fetaures .saf-icon .saf-ficon::after {
+        height: 80px;
+        width: 80px;
+        top: -7%;
+        left: -5%;
+    }
+    section.mobile-ui .mobile-ui-content h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    section.mobile-ui .mobile-ui-content {
+        padding-top: 20%;
+    }
+    section.mobile-ui .mobile-ui-bg {
+        top: 34%;
+    }
+    section.mobile-ui .mobile-ui-content .btn-2 {
+        max-width: 90px;
+    }
+    section.mobile-ui .mobile-ui-content .btn-3 {
+        max-width: 90px;
+    }
+    section.about-us-9.about-us-main .about-content h1 {
+        font-size: 31px;
+        line-height: 38px;
+    }
+    section.about-us-9.about-us-main .about-1::before {
+        width: 120%;
+    }
+    section.about-us-9.about-us-main .e-solution-details p {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    section.about-us-9.about-us-main .e-solution-details .esd-all ul li {
+        padding: 7px 0px;
+        width: 48%;
+    }
+    section.about-us-9.about-us-main .e-solution-details .esd-all ul li a {
+        font-size: 13px;
+    }
+    section.team {
+        padding-bottom: 50px;
+    }
+    section.information .information-text h1 {
+        font-size: 30px;
+        line-height: 33px;
+        padding: 5px 0px;
+    }
+    section.information .information-text h3 {
+        font-size: 23px;
+    }
+    section.information {
+        padding-top: 80px;
+    }
+    section.information .information-text p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    section.our-specialties .our-specialties-details h1 {
+        line-height: 33px;
+        font-size: 25px;
+    }
+    section.our-specialties .our-specialties-details h3 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    section.our-specialties .our-specialties-details p {
+        line-height: 23px;
+        font-size: 14px;
+    }
+    section.our-specialties .single-sp-details .s-sp-text h3 {
+        font-size: 19px;
+    }
+    section.our-specialties .single-sp-details .s-sp-text p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    section.our-specialties .single-sp-details {
+        margin-top: 15px;
+    }
+    section.about-us-9.about-us-main .about-content h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    section.Our-Approach .about-1::before {
+        height: 400px !important;
+        width: 400px !important;
+        right: -10%;
+    }
+
+    section.Our-Approach .about-content{
+        z-index: 2;
+    }
+    section.Our-Approach .about-content h3{
+       font-size: 19px;
+    }
+    section.Our-Approach .about-content p{
+        font-size: 14px !important;
+        padding: 0px 0px 30px;
+     }
+     section.blog-page .blog-sidebar .bs-post-wrapper .single-pb-post .s-pbp-text {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+
+    section.blog-page .blog-sidebar .bs-post-wrapper .single-pb-post .s-pbp-img{
+        float: unset;
+    }
+
+    section.blog-page .blog-sidebar .reletad-post .releted-post-slide .r-blog .rb-text h5{
+
+        font-size: 12px;
+         line-height: 18px;
+    }
+
+    section.blog-page .blog-sidebar .reletad-post .releted-post-slide .r-blog .rb-text p {
+        font-size: 11px;
+    }
+    section.blog-page .blog-sidebar .blog-catagory .caragory-list ul li {
+        line-height: 15px;
+    }
+    section.blog-page .blog-sidebar .blog-catagory .caragory-list ul li a {
+        font-size: 15px;
+    }
+    section.blog-page .blog-sidebar .bs-post-wrapper h3 {
+        padding: 10px 0px;
+        font-size: 21px;
+    }
+    section.blog-page .blog-sidebar .reletad-post h3 {
+        font-size: 22px;
+    }
+    section.blog-page .blog-sidebar .blog-social-icon {
+        padding-top: 25px;
+    }
+
+    section.blog-page .blog-sidebar .reletad-post .releted-post-slide .owl-dots {
+        left: 18%;
+    }
+    section.blog-page .blog-sidebar .blog-social-icon .social li {
+        margin-right: 4px;
+        margin-top: 4px;
+    }
+    section.blog-page .single-bloge-post h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    section.blog-page .single-bloge-post {
+        margin-bottom: 50px;
+    }
+    section.support .single-support h3 {
+        padding-top: 25px;
+        font-size: 16px;
+    }
+    section.payment-page .payment-method {
+        padding: 50px 10px;
+    }
+    section.payment-page .payment-method button {
+        font-size: 11px;
+        padding: 4px 14px;
+    }
+    section.career .career-tag ul li .active {
+        font-size: 13px;
+    }
+    section.career section.team-member .ex-ser-team .tm-text h3 {
+        font-size: 18px;
+    }
+
+    section.career .company-location h3{
+        font-size: 22px;
+    }
+    section.contact-us .single-contact .sc-text span {
+        padding: 10px 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    section.contact-us .contact-details h2 {
+        font-size: 28px;
+    }
+
+    section.career-details .need-niksta h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+    section.career-details .jod-information form .form-group label {
+  
+        font-size: 12px;
+    }
+
+    section.career-details .jod-information form .form-group a.btn-3 {
+     
+        font-size: 13px;
+        padding: 10px 0px;
+        max-width: 130px;
+    }
+    section.career-details .jod-information form .form-group .f-uplode {
+        font-size: 12px;
+        padding: 23px 8px;
+    }
+    section.sign-up .sign-up-content h1 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    section.sign-up .sign-up-content p {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    section.sign-up .sign-up-content::before {
+     
+        top: -50%;
+    }
+    section.sign-up section.signup-details h3 a {
+       
+        font-size: 19px;
+    }
+  
+
+   
+
+
 } // End min 767px to max 991px
 
 // Medium devices (tablets, less than 992px)
 @media  only screen and (max-width: 991px){ 
+
+   
+    .h-style1 {
+        height: 80px;
+        padding: 10px 0px;
+    }
+    .h-style3 {
+        height: 90px;
+    }
+    section.hero-1 {
+        padding: 50px 0px;
+    }
+    section.hero-1 .hero-content h1 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    section.hero-1 .hero-content p {
+        font-size: 19px;
+        line-height: 26px;
+        padding: 0;
+        padding-top: 20px;
+    }
     
-    h1 {
-        font-size: 36px;
-        line-height: 46px;
+    section.hero-1 .hero-content .animation-2 {
+        top: -12%;
+        left: 40%;
+    }
+    section.hero-1 .hero-img::before {
+        bottom: -24px;
     }
 
-    .hero-area .hero-content p {
-        font-size: 16px;
-        width: 130px;
-
+    a.btn-2 {
+        max-width: 160px;
+    }
+    a.btn-3 {
+        max-width: 160px;
+    }
+    section.hero-1 .hero-content::before {
+        height: 179px;
+    }
+    
+    section.hero-1 .hero-img {
+        margin-left: 21px;
+    }
+    section.about-us {
+        padding: 50px 0px 100px;
+    }
+    section.about-us .about-1::before {
+        top: -25%;
+        left: -6%;
+        height: 468px;
+    }
+    section.about-us .about-content h3 {
+        font-weight: 500;
+    }
+    section.pricing nav p:first-child {
+        right: 33%;
+    }
+    section.recent-blog h1{
+        font-size: 29px;
+        line-height: 40px;
+    }
+    section.recent-blog h3{
+        font-size: 21px;
     }
 
-    .about .about-content h2 {
-        padding-right: 0%;
-        font-size: 30px;
-        line-height: 37px;
+    section.hero-2::before {
+        left: 48%;
+        bottom: 8%;
     }
-
-    .testimonial .client button.owl-next {
-      
-        right: 0;
+    section.hero-2 .h2-img-bg {
+        width: 34%;
+        height: 700px;
     }
-    .testimonial .client button.owl-prev {
+    section.hero-2 .hero-content p {
+        font-size: 17px;
+        padding-bottom: 30px;
+    }
+    section.about-us-2 .about-1::before{
+        display: none;
+    }
+    section.recent-Work .fortfolio-slide-1 .owl-nav [class*=owl-prev] {
+        right: 18%;
+    }
+    
+    section.recent-Work .fortfolio-slide-1 {
+        padding: 50px 0px 0px;
+    }
+    section.about-team .about-content {
+        padding-top: 0;
+    }
+    section.about-team .about-content h1 {
+        padding: 5px 0px;
+    }
+    .h-style3 .nh3-topber ul.ht3-list li a {
+        padding: 10px 6px;
+        font-size: 8px;
+    }
+    .h-style3 .nh3-navber .nh3-nav-btn a.btn-1 {
+        padding: 12px 8px;
+        text-align: center;
+    }
+   
+    .h-style3 .nh3-navber {
+        height: 53.5px;
+    }
+    .h-style3 .nh3-navber nav .nav-brand {
+        max-width: 183px;
+    }
+    .h-style3 h2.nav-brand img {
+        width: 65%;
+    }
+    .h-style3 .nav-brand a {
+        padding: 17px 5px;
+    }
+    .h-style3 .sm-mint > li > a {
+        padding: 18px;
+        padding-right: 8px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    section.hero-3 .hero-3-content p {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    section.hero-3 .hero-3-content {
+        padding: 190px 0px 90px;
+    }
+   
+    section.about-us-5 {
+        padding: 100px 0px 0px;
+    }
+    section.about-us-5 .about-content::before {
+        width: 400px;
+        height: 400px;
         left: 0;
+        top: 20px;
     }
-    .hero-area .hero-content p {
-        width: 100%;
+    section.about-us-5 .about-content h1 {
+        line-height: 32px;
+        font-size: 29px;
+        padding: 10px 0px;
     }
-    .hero-2 .hero-content .for-appointment .cell-number span {
-        font-size: 16px;
+    section.mini-services .single-service .ss-content h3 {
+        font-size: 14px;
+        line-height: 20px;
     }
-    .hero-2 .hero-content .for-appointment .cell-number p {
+    section.mini-services .service-content h1 {
+        line-height: 27px;
+        font-size: 21px;
+    }
+    section.mini-services .service-content .btn-2 {
+        font-size: 14px;
+        padding: 9px 0px;
+        max-width: 134px;
+    }
+    section.about-us-6 .about-content h3 {
+        font-size: 21px;
+        line-height: 15px;
+    }
+    section.about-us-6 .about-content h1 {
+        line-height: 34px;
+        font-size: 25px;
+    }
+    section.about-us-6 .about-content p {
+        line-height: 25px;
+        padding: 5px 0px;
         font-size: 14px;
     }
-    .hero-3 .hero-content h1 {
+    section.hero-3 .hero-3-content {
+        padding: 190px 0px 90px 0px;
+    }
+
+    section.hero-3 .hero-3-content h1 {
+        font-size: 32px;
+    }
+    section.recent-Work-2 {
+        margin: 60px 0px;
+    }
+    section.client-feedback .single-feedback .sf-client .text {
+        left: -4%;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content h1 {
+        line-height: 55px;
+        font-size: 47px;
+    }
+    section.recent-blog2 .rb2-text h4 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    section.recent-blog2 .rb2-text h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    section.recent-blog2 .rb2-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    section.pricing-2 nav p:first-child {
+        right: 60%;
+    }
+
+    section.pricing-2 nav p:last-child {
+        right: 32%;
+    }
+    section.pricing-2 .price-catagory-full .price-catagory h2 {
+        font-size: 17px;
+    }
+    section.pricing-2 .price-catagory-full .price-catagory {
+        padding: 30px 10px 20px;
+        margin: 0;
+    }
+    section.pricing-2 .price-catagory-full .price-catagory p {
+        padding: 20px 0px 10px;
+        font-size: 14px;
+    }
+    section.pricing-2 .price-catagory-full .price-details {
+        padding: 10px 0px 30px;
+    }
+    section.hero-5 .hero-content h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    section.hero-5 .hero-content p {
+        font-size: 17px;
+        padding: 9px 0px;
+        line-height: 27px;
+    }
+    section.hero-5::before {
+        height: 400px;
+        border-radius: 50%;
+        left: -5%;
+        top: -28%;
+        z-index: -1;
+        width: 400px;
+    }
+    section.hero-5 .hero-img {
+        position: relative;
+        padding: 10px;
+        padding-top: 15%;
+    }
+    section.hero-5::after {
+        top: -27%;
+        right: 5%;
+        height: 100%;
+    }
+    section.hero-5 .hero-content {
+        padding: 30px 0px;
+    }
+    section.partner {
+        padding: 30px 0px;
+    }
+    section.about-us-9 {
+        padding: 50px 0px;
+    }
+    section.about-us-9 .about-content {
+        width: 100%;
+        padding-top: 0;
+        margin-left: 0;
+    }
+    section.about-us-9 .about-content h1 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+    section.hero-6 .hero-6-content h1 {
+        font-size: 37px;
+        line-height: 57px;
+    }
+    section.hero-6 .hero-6-content p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    section.client-feedback.dark {
+        padding-top: 50px;
+    }section.client-feedback h1 {
+        padding-bottom: 0px;
+    }
+    section.hero-7 .hero-content::before{
+        display: none;
+    }
+    section.hero-7 .hero-content .hero-btn a.btn-2 {
+        max-width: 120px;
+        font-size: 12px;
+        padding: 9px 0px;
+    }
+    section.hero-7 .hero-content .hero-btn a.btn-3 {
+        max-width: 120px;
+        font-size: 12px;
+        padding: 9px 0px;
+    }
+    section.about-us-11 {
+        padding-top: 100px;
+    }
+    section.about-us-11 .about-content {
+        width: 100%;
+        padding-top: 5%;
+    }
+    section.about-us-11 .about-content h1 {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    section.about-us-11 .about-content a.btn-2{
+        max-width: 120px;
+        font-size: 12px;
+        padding: 9px 0px;
+    }
+    section.about-us-11 .about-content a.btn-3{
+        max-width: 120px;
+        font-size: 12px;
+        padding: 9px 0px;
+    }
+    section.about-us-hero .au-hero-text {
+        padding: 180px 0px 120px;
+    }
+    section.about-us-hero .au-hero-text h1 {
         font-size: 45px;
     }
-    .blog .side-bar {
+    
+    section.fun-fact.mar-top-108 {
+        margin-top: 50px;
+    }
+    section.blog-page .blog-team {
+        display: grid;
+    }
+    section.blog-page .blog-team .blog-t-text {
+        margin-left: 0;
+        margin: 10px 0px;
+    }
+    section.blog-page section.comment .single-comment {
+        display: grid;
+    }
+    section.blog-page section.comment .single-comment .single-comment-text {
+        display: table-cell;
         padding-left: 0;
+        padding: 10px 0px;
     }
-    .commingsoon .subscribe {
-        width: 90%;
+    section.blog-page .blog-details-item .bdi-1 {
+        display: table-cell;
+    }
+    section.blog-page .blog-details-item .bdi-1 .bdi-1-text {
+        padding: 11px 0;
+    }
+    section.blog-page .blog-details-item .bdi-2 .bdi-2-text {
+        padding: 0px 0px 10px 0;
+        text-align: left;
+    }
+    section.blog-page .blog-details-item .bdi-2 {
+        display: table-cell;
+    }
+    .error-content h1 {
+        font-size: 47px;
+        line-height: 60px;
     }
 
-} /*--Max-width :991px----------*/
-
-// Small devices (landscape phones, less than 868px)
-@media  only screen and (max-width: 850px) {
- 
-    .sm-mint a {
-        font-size: 10px;
-        padding: 14px 9px;
+    section.case-studies .scs-text h3 {
+        padding-top: 15px;
     }
-    .commingsoon #clockdiv .time {
-        width: 150px;
+    section.case-studies .scs-text2 h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    section.portfolio-details .portfolio-d-text h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    section.service-details-page .service-dp-text h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    section.service-details-page .service-dp-text p {
+        padding: 20px 0px;
+        font-size: 15px;
+        padding-right: 0;
+    }
+    section.work-process {
+        padding: 60px 0px;
     }
 
-} /*===========Max-width : 867px---------------*/
+} // End max 991px 
+
+
+// Small devices (landscape phones, less than 875px)
+@media  only screen and (max-width: 875px) {
+
+    section.hero-2 .hero-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    section.hero-2 .hero-content p {
+        font-size: 17px;
+        line-height: 26px;
+        padding: 11px 0px;
+    }
+    section.hero-3 .hero-3-content h1 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    section.hero-3 .hero-3-content p {
+        font-size: 14px;
+    }
+    section.hero-5::after {
+        top: -14%;
+    }
+    section.hero-3 .hero-social-icon{
+        display: none;
+    }
+
+}
 
 // Small devices (landscape phones, less than 768px)
 @media  only screen and (max-width: 767px) {
 
-    .sm-mint a {
-        color: rgb(255, 255, 255);
-        padding: 14px 10px;
+    .h-style1 {
+
+         a.btn-1 {
+            padding: 12px 14px;
+            font-size: 12px;
+            top: 4px;
+        }
+    }    
+    .h-style1 {
+        height: 60px;
+    }
+    section.hero-1 .hero-content h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    section.hero-1 .hero-content::before {
+        top: 12%;
+        left: -23%;
+    }
+    section.hero-1 .hero-img {
+        top: 5%;
+    }
+    section.hero-1 .hero-img::before {
+        width: 35%;
+        right: -20%;
+        height: 157px;
+        bottom: 0;
+    }
+    section.header.h-style1 .col-3 {
+        text-align: center;
+    }
+    .nav-brand a {
+        padding: 11px 0px 11px 0px;
+    }
+    section.hero-1 .hero-content {
+        padding: 50px 0px 0px;
+    }
+    section.hero-1 .hero-img {
+        margin-left: 0;
+        width: 100%;
+    }
+    section.partner .partner-logo {
+        margin: 15px 10px;
+    }
+    section.about-us .about-1 {
+        right: 0;
+    }
+    section.about-us .about-1::before {
+        top: -6%;
+        left: 0;
+        width: 100%;
+        height: 501px;
+    }
+    section.about-us .about-content {
+        padding-top: 70px;
+    }
+    section.about-us .about-content h1 {
+        padding: 13px 0px;
+    }
+
+    section.about-us .about-1 img {
+        max-width: 100%;
+    }
+
+    section.pricing .price-top h1 {
+        font-size: 19px;
+        line-height: 31px;
+    }
+    section.pricing .price-top h4 {
+        font-size: 17px;
+    }
+    section.pricing nav .nav-tabs {
+        max-width: 80px;
+        margin-right: 50px;
+        height: 40px;
+    }
+    section.pricing nav .nav-tabs .nav-link {
+        border: none;
+        max-width: 39px;
+        width: 100%;
+    }
+    section.pricing nav {
+        top: 22px;
+    }
+    section.pricing nav p:first-child {
+        right: 27%;
+        top: 19%;
+        font-size: 15px;
+    }
+    section.pricing nav p:last-child {
+        position: absolute;
+        right: 0;
+        top: 12%;
+        font-size: 15px;
+    }
+    section.pricing .price-catagory a {
+        left: 35%;
+    }
+    section.client-feedback h1 {
+        padding-bottom: 30px;
+    }
+    section.client-feedback .single-feedback .sf-client .text {
+        top: 5px;
+        left: -25%;
+    }
+    section.client-feedback {
+        padding: 50px 0px 50px;
+    }
+    section.recent-blog .blog-slide-1 .owl-nav [class*=owl-prev] {
+        right: 8%;
+    }
+    section.footer-details .f-details {
+        position: relative;
+        margin: 14px auto;
+    }
+    footer p{
         font-size: 12px;
     }
-    .sm-mint {
-        padding: 31px 20px;
+    section.hero-2 .hero-content {
+        margin-top: 10%;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+    section.hero-2 .hero-content p {
+        font-size: 26px;
+        line-height: 37px;
+        padding-bottom: 40px;
+    }
+    section.hero-2 .hero-img {
+        margin-top: 15%;
+    }
+    section.hero-2 .hero-content .animation-6 {
+        bottom: -23%;
+    }
+    section.hero-2 .hero-content .animation-4 {
+        bottom: -13%;
+        right: 39%;
+    }
+    section.hero-2 .hero-content .animation-1 {
+        left: 6px;
     }
 
-   
-    #main-menu {
-        position: fixed;
-        max-height: 383px;
-        border-bottom: 0;
-        overflow-y: scroll;
+    section.hero-2 .hero-content .animation-1 {
+      display: none;
+    }
+    section.hero-2 .hero-content .animation-3 {
+        display: none;
+    }
+    section.hero-2 .hero-img::before {
+      display: none;
+    }
+    section.hero-2::before {
+        display: none;
+    }
+    .h-style2 .col-2{
+        padding: 0;
+        padding-right: 10px;
+    }
+    section.service {
+        padding: 0px;
+    }
+    section.about-us-2 .about-1{
+        right: 0;
         width: 100%;
-        top: 70px;
-        border-radius: 15px;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        left: 0;
-        box-shadow: 0 4px 3px rgba(0, 0, 0, 0.25);
+        margin: 0;
     }
-    .hero-area .hero-content {
-        padding: 250px 10px 220px;
+    section.about-us.about-us-2 {
+        padding: 50px 0px 0px;
     }
-    .hero-area .hero-content {
-        padding: 200px 10px 160px;
+    section.about-us.about-us-2.about-us-3 .about-content {
+        padding: 0px 0px 50px;
     }
-
-    .about {
+    section.recent-Work .fortfolio-slide-1 .owl-nav [class*=owl-prev] {
+        right: 20%;
+    }
+    section.about-team .about-1 {
+        right: 0;
+    }
+    .nh3-topber {
+        display: none;
+    }
+    .h-style3 .main-menu-btn {
+        margin: 10px;
+    }
+    .h-style3 .nh3-navber ul.sm-mint > li > a {
+        color: #000;
+        font-size: 14px;
+    }
+    section.about-us-5 .about-img img.abi2-bg{
+        display: none;
+    }
+    section.about-us-5 .about-content {
+        padding: 15px;
         padding-top: 100px;
     }
+    section.about-us-5 .about-content::before {
+        top: 21%;
+    }
+    section.mini-services {
+        padding: 60px 0px;
+    }
+    section.mini-services {
+        padding: 60px 0px;
+    }
+    section.mini-services .single-service {
+        margin: 25px auto;
+    }
+    section.mini-services .service-content {
+        padding-bottom: 50px;
+    }
+    .h-style3 .nh3-navber {
+        border: none;
+    }
+    .h-style3 .nh3-navber nav .nav-brand {
+      border: none;
+    }
+    .h-style3 .nh3-navber .nh3-nav-btn {
+      border: none;
+    }
+    section.hero-3 .hero-3-content {
+        padding: 130px 0px 90px;
+    }
+    .hero-3-content a.btn-2{
+        z-index: 0;
+        max-width: 140px;
+        font-size: 14px;
+        padding: 9px 0px;
+    }
+    section.hero-3 .designer-slide {
+        display: none;
+    }
+    section.hero-3::before {
 
-    .about .about-img {
+        background: #2e4963;
+        background-image: none;
+    }
+
+    .left-pad {
+        padding-left: 0px !important;
+    }
+    section.fun-fact .single-fune-fact {
+        text-align: center;
+    }
+    section.fun-fact .single-fune-fact h1.sff::before {
+        right: 50%;
+        left: unset;
+    }
+    section.fun-fact .single-fune-fact {
+        padding: 0;
+        padding-top: 100px;
+    }
+    section.fun-fact .single-fune-fact.single-ff-2 {
+        padding-bottom: 100px;
+    }
+    section.about-us-6 .about-content {
+        padding-bottom: 120px;
+    }
+    section.about-us-6 {
+        padding: 100px 0px 60px;
+    }
+    section.about-us-6::before {
+        left: 79%;
+        bottom: 49%;
+    }
+    section.blog .single-blog .sb-text {
+        top: 25%;
+    }
+    section.blog .single-blog .sb-text h1 {
+        padding: 17px 0px;
+    }
+    section.blog .single-blog2 .sb-text{
+        padding: 10px;
+    }
+    section.blog .single-blog2 .sb-text h3 {
+        font-size: 17px;
+        line-height: 21px;
+        padding: 5px 0px;
+    }
+    section.blog .single-blog2 .sb-text h4 {
+        line-height: 16px;
+        font-size: 15px;
+    }
+    section.blog .single-blog2 .sb-text p {
+        line-height: 16px;
+        font-size: 13px;
+    }
+    section.client-feedback-2 {
+        overflow: hidden;
+    }
+    section.about-us-6 .about-img::after {
+        right: 0;
+    }
+    section.about-us-6::after{
+        display: none;
+    }
+    section.about-us-6::before{
+        display: none;
+    }
+    section.hero-3 .hero-social-icon {
+        top: 35%;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content h1 {
+        line-height: 31px;
+        font-size: 28px;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content {
+        position: relative;
+        padding: 149px 0px;
+        z-index: 1;
+        padding-left: 0;
+    }
+    a.btn-3 {
+        padding: 9px 0px;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content h3 {
+        line-height: 42px;
+        font-size: 20px;
+    }
+
+    section.service .single-service {
+        padding: 15px;
+        margin: 25px auto;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content a.btn-3 {
+        margin-top: 50px;
+        max-width: 140px;
+    }
+    section.fun-fact-2 {
+        margin-top: 50px;
+    }
+    section.about-us-7 .about-content {
+        padding: 50px 0px;
+    }
+    section.about-us-7 {
+        padding-top: 90px;
+    }
+    section.about-us-8 .about-content {
+        padding: 50px 0px 100px;
+    }
+    section.about-us-8 {
+        padding: 30px 0px 50px;
+    }
+    section.hero-5::after{
+        display: none;
+    }
+    section.hero-5 .hero-content {
+        padding: 60px 0px 10px;
+    }
+    section.hero-5 .hero-content h1 {
+        font-size: 42px;
+        line-height: 51px;
+    }
+    section.about-us-9 .about-content {
+        padding-top: 50px;
+    }
+    section.about-us-10 .about-1 {
+        padding-top: 50px;
+    }
+    section.about-us-10 .about-1::before {
+        top: 30px;
+    }
+    section.features-2 .features-img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    section.about-us-10 {
+        padding: 20px 0px;
+    }
+    
+    section.about-us-10 .about-1::before {
+        width: 450px;
+        height: 450px;
+    }
+    section.features-2 {
+        margin-top: 50px;
+    }
+    section.pricing-2 .price-catagory-full {
+      margin: 25px auto;
+    }
+    section.hero-6 .hero-6-content h1 {
+        font-size: 31px;
+        line-height: 41px;
+    }
+    a.btn-2 {
+        padding: 9px 0px;
+    }
+    section.about-us-9.dark .about-1 {
+        margin-left: 0;
+        width: 100%;
+    }
+    section.about-us-10.dark {
+
+        padding-bottom: 50px;
+    }
+    section.hero-7 .hero-img {
+        text-align: center;
+    }
+    section.hero-7 {
+
+        padding: 90px 0px 60px;
+    }
+    section.advance-fetaures .single-advance-fetaures .saf-icon .saf-ficon::after {
+        left: -15px;
+    }
+    section.advance-fetaures .single-advance-fetaures {
+        margin: 25px auto;
+    }
+    section.about-us-11 .about-img {
+        width: 100%;
+        margin: 0;
+    }
+    section.about-us-11 {
+        padding-top: 50px;
+        overflow: hidden;
+    }
+
+    section.hero-7 .hero-content {
+    padding-top: 15%;
+
+    }
+    section.hero-7 {
+        padding: 90px 0px;
+    }
+    section.about-us-11 .about-content p {
+        padding: 10px 0px 30px;
+    }
+    section.about-us-11 .about-content {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    section.about-us-12 .about-img .about-img-2 {
+        left: 0;
+        width: 100%;
+    }
+    section.mobile-ui {
+        text-align: center;
+        padding-top: 30px;
+    }
+    section.mobile-ui .mobile-ui-bg {
+        height: 61%;
+        top: 8%;
+        left: 0;
+        width: 100%;
+    }
+    section.mobile-ui .mobile-ui-img2 {
         width: 100%;
         margin-left: 0;
     }
-
-    .about .about-img .as-img {
-        margin-bottom: 25px;
-        margin-top: 50px;
+    section.mobile-ui .mobile-ui-bg {
+        height: 95%;
+        top: 8%;
+        left: 0;
     }
-
-    .about .about-img .as-img.as-img2 {
-        margin-top: 25px;
+    section.mobile-ui .mobile-ui-content {
+        padding-top: 10%;
     }
-
-    .team {
-        margin-top: 100px;
+    section.mobile-screen-slide {
+        padding-bottom: 0;
     }
-
-    .team .single-t-member {
-        margin-bottom: 50px;
+    section.recent-blog2 {
+        padding-bottom: 0px;
     }
-
-    .video {
-        margin-top: 100px;
-    }
-    .footer-area {
-        margin-top: 100px;
-        text-align: center;
-    }
-    .footer-area .footer-details .fd-info p {
-
+    section.about-us-9.about-us-main .e-solution-details {
         padding-right: 0;
+        padding-top: 38%;
     }
-    .footer-area .footer-details .f-link {
-        margin-top: 50px;
+    section.team .team-content-wrapper .tc-text h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
     }
-    .footer-area .footer-details .f-gallery {
-        margin-top: 50px;
+    section.team .team-content-wrapper .tc-text p{
+        font-size: 12px;
+        line-height: 21px;
     }
-    .about2 .about-content {
-        margin-top: 50px;
+    section.about-us-hero .au-hero-text {
+        padding: 100px 0px 80px;
     }
-    .about2 .about-content .s-safety {
-
-        margin-bottom: 8px;
-        margin-top: 30px;
+    section.information {
+        padding-top: 80px;
     }
-    .service-2 {
-        margin-top: 50px;
+    section.information .information-text2 {
+        padding-top: 30px;
+        padding-left: 0;
     }
-    .appointment .appoint-text {
-        padding: 50px 0;
-        text-align: center;
+    section.our-specialties .specialties-img {
+        width: 100%;
+        margin-left: 0;
     }
-    .blog-3 {
-        padding-top: 60px;
-        padding-bottom: 80px;
+    section.our-specialties .our-specialties-details {
+        padding-top: 12%;
     }
-    .portfolio {
-        padding-top: 100px;
-    }
-    .mar-top-140 {
-        margin-top: 80px !important;
-    }
-    .heritage {
-        
-    margin-top: 50px;
-        padding: 90px 0px;
-    }
-    .service-5 .main-single-service {
-        margin-bottom: 60px;
-    }
-    .about .inner-ab-img {
-        text-align: left;
-        margin-top: 50px;
-    }
-    .history-img {
+    section.our-specialties .our-special-margin {
         position: relative;
-        margin-bottom: 30px;
+        margin-left: 0;
     }
-    .portfolio2 {
-        margin-top: 0;
+    section.our-specialties .our-specialties-details h1 {
+        line-height: 33px;
+        font-size: 26px;
+    }
+    section.our-specialties .our-specialties-details h3 {
+        font-size: 19px;
+    }
+    section.Our-Approach .about-content h1{
+        font-size: 30px !important;
+        line-height: 38px;
+    }
+    section.Our-Approach .about-content h3{
+        font-size: 20px;
+    }
+    section.Our-Approach .about-content {
+        margin-bottom: 80px;
+    }
+    section.Our-Approach .about-1::before{
+        display: none;
+    }
+    section.information .information-text h1 {
+        line-height: 37px;
+        font-size: 28px;
+    }
+    section.information .information-text h3 {
+        font-size: 18px;
     }
 
-    .blog {
-        margin-top: 50px;
+    section.blog-page .single-bloge-post h1 {
+        font-size: 26px;
+        margin-top: 0;
+        line-height: 38px;
     }
-    .blog .side-bar {
-        margin-top: 50px;
+    section.blog-page {
+        padding-top: 50px;
     }
-    .blog .bg-3 {
-        margin-top: 50px;
+    section.about-niksta-1 .about-niksta-1-img {
+        margin-left: 0;
+        width: 100%;
     }
-    .commingsoon #clockdiv .time span {
-        font-size: 50px;
-        line-height: 60px;
+    section.about-niksta-1 {
+        padding-top: 70px;
     }
-    .commingsoon #clockdiv .time {
-        width: 100px;
+    section.user-guide {
+        width: 100%;
     }
-    .commingsoon #clockdiv .dot {
-        font-size: 25px;
-        padding: 80px 10px;
-    }
-    .commingsoon #clockdiv .time .smalltext {
+    section.user-guide .card .card-header .accordion-toggle.collapsed {
         font-size: 15px;
     }
-    .faq-area {
-        margin-top: 100px;
+    section.user-guide {
+        padding: 50px 0px;
     }
-    .problrm-solve {
+    section.pricing-2 .price-top h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    section.pricing-2 .price-top h4 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+    section.analytics .chart {
+        margin: 15px auto;
+    }
+
+    section.career .career-tag {
+        margin-bottom: 50px;
+    }
+    section.career {
+        position: relative;
+        padding-top: 50px;
+    }
+    section.career .job-tittle select {
+        margin-bottom: 20px;
+    }
+
+    section.case-studies .scs-text2 {
+        width: 77%;
+        top: 26%;
+    }
+    section.case-sd-content .csc-text {
+        width: 100%;
+        margin-top: -50px;
+        padding: 20px 10px;
+    }
+    section.case-sd-content .csc-text h3 {
+        line-height: 32px;
+        font-size: 20px;
+    }
+    section.about-us-hero .au-hero-text p {
+        font-size: 27px;
+        line-height: 37px;
+        padding: 0;
+    }
+    section.case-sd-content .csc-text p {
+        font-family: "Circular Std Book";
+    }
+    section.contact-us .contact-details {
+        padding-top: 0;
+    }
+    section.contact-us .single-contact .sc-text2 span {
+        padding: 15px 0px;
+    }
+    section.comingsoon h1 {
+        font-size: 53px;
+    }
+    section.comingsoon #clockdiv .time span {
+        font-size: 36px;
+    }
+    section.comingsoon #clockdiv .time .smalltext {
+        font-size: 20px;
+    }
+    section.comingsoon #clockdiv .time {
+        width: 90px;
+        height: 90px;
+        padding: 13px 0px;
+    }
+
+    section.comingsoon #clockdiv .dot {
+        font-size: 60px;
+        padding: 25px 10px;
+    }
+    section.career-details .jod-information {
+        padding: 0;
+        border: none;
+        padding-left: 0;
+        margin-top: 50px;
+        border-radius: 0;
+    }
+    section.career-details .jod-information h2 {
+        margin-left: 0;
+    }
+    section.career-details .jod-information form .form-group {
+        text-align: left;
+    }
+    section.career-details .jod-information form .form-group .f-uplode {
+      
+        margin-top: 40px;
+    }
+
+    section.career-details .need-niksta {
+      
         margin-top: 60px;
     }
-    .errore-area .errore-img img {
-        max-width: 100%;
-        width: 100%;
+    section.about-us-hero .au-hero-text h1 {
+   
+        line-height: 60px;
     }
-    .contact-area .contact-details .cd-info form .form-group .form-control {
-      
-        font-size: 12px;
+    section.sign-up .sign-up-content h1 {
+        font-size: 40px;
+        line-height: 54px;
     }
-    .contact-area .contact-info .single-info {
+    section.sign-up .sign-up-content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    section.sign-up .sign-up-content::before {
     
-        margin-bottom: 30px;
+        top: -57%;
     }
-    .contact-area .contact-details .cd-text {
-        padding-right: 0%;
-        margin-top: 50px;
-        margin-bottom: 30px;
+    section.sign-up {
+        padding-bottom: 50px;
+        padding-top: 80px;
     }
-    .contact-area .contact-details h2 {
-        font-size: 32px;
-        line-height: 42px;
+    section.sign-up section.signup-details {
+        padding-top: 50px;
     }
-    .contact-area .contact-info {
-        margin-bottom: 0;
+    section.portfolio .psFilter label {
+        font-size: 13px;
+        padding: 8px 11px;
     }
-    .contact-area {
-        margin-top: 100px;
+    section.portfolio .psFilter {
+        display: inline-block;
     }
-}// ENd max 767px
+    section.portfolio {
+        margin: 50px auto;
+    }
+    section.portfolio .aspect__inner h3 {
+        left: 28%;
+    }
+    section.service-details-page .service-dp-text {
+       
+        padding-top: 0;
+        padding-right: 0px;
+    }
+    section.service-details-page .service-dp-img {
+        width: 100%;
+        margin-left: 0;
+        margin: 50px 0px;
+    }
+    section.work-process .tab-content .work-content {
+      
+        right: 0;
+    }
+    .h-style1 {
+        height: 60px;
+    }
+    .h-style3 {
+        height: 54px;
+    }
 
+}   // ENd max 767px
 
+// Extra small devices (portrait phones, less than 615px)
+@media  only screen and (max-width: 615px) { 
 
-// Extra small devices (portrait phones, less than 575px)
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content {
+        padding-left: 50px;
+    }
+
+    section.about-us-8 .about-img::before {
+        content: '';
+        left: 33%;
+        height: 70%;
+        top: -3%;
+    }
+
+    section.about-us-7 .about-img::after {
+        bottom: -2%;
+        right: -2%;
+    }
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
 @media  only screen and (max-width: 575px) { 
 
+    .h-style1 {
 
-    .hero-2 .hero-content .for-appointment i {
+    .sm-mint a, .h-style1 .sm-mint a:hover, .h-style1 
+    .sm-mint a:focus, .h-style1 .sm-mint a:active, 
+    .h-style1 .sm-mint a.highlighted {
+
+        padding: 15px;
+    }
+
+    }
+    section.hero-1 .hero-content .animation-1 {
+        left: 6%;
+    }
+    section.hero-1 .hero-content .animation-6 {
+        top: 29%;
+        right: 14%;
+    }
+
+    section.hero-1 .hero-content .animation-5 {
+        bottom: 18%;
+        left: 70%;
+    }
+    section.hero-1 .hero-content .animation-4 {
+        left: 70%;
+        bottom: 18%;
+    }
+
+    section.hero-1 .hero-img::before {
+
+        display: none;
+    }
+
+     .hero-btn a.btn-2 {
+        max-width: 140px;
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    .hero-btn a.btn-3 {
+        max-width: 140px;
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    section.about-us .about-content a.btn-2 {
+        max-width: 140px;
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    section.pricing{
+        margin: 80px 0px 50px;
+    }
+    section.features {
+        padding: 0px 0px 60px;
+    }
+    section.client-feedback .single-feedback .sf-content {
+        padding: 35px 22px;
+    }
+    section.hero-2 .h2-img-bg {
+        display: none;
+    }
+    section.hero-2 .hero-content::before {
+        left: 12%;
+        top: -21%;
+    }
+    section.hero-2 .hero-content p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .h-style1.h-style2 a.btn-1 {
+        font-size: 10px;
+        top: 4px;
+    }
+    section.recent-Work .fortfolio-slide-1 .owl-nav [class*=owl-next]{
+
+        right: 5%;
+    }
+    section.recent-Work .fortfolio-slide-1 .owl-nav [class*=owl-prev] {
+        right: 11%;
+    }
+    section.recent-Work-2 .fortfolio-slide-2 .rb-img {
+        max-height: 400px;
+    }
+    section.hero-4 .hero-social-icon {
+        top: 35%;
+    }
+    section.hero-4 .hero4-slide .owl-dots .owl-dot {
+        height: 10px;
+        width: 10px;
+    }
+    section.hero-4 .hero4-slide .owl-dots {
+        top: 38%;
+    }
+    section.hero-4 .hero-social-icon li {
+        padding: 6px;
+        min-width: 25px;
+        min-height: 25px;
+    }
+    section.hero-4 .hero-social-icon ul li a{
+
+        font-size: 10px;
+    }
+    section.service-2 {
+        margin-top: -50px;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content a.btn-3 {
+        margin-top: 30px;
+    }
+    section.pricing-2 .price-top h1 {
+        margin-bottom: 0;
+    }
+    section.hero-6 .hero-6-content {
+        padding-top: 10px;
+    }
+    .owl-carousel .owl-item img {
+        object-fit: contain;
+        height: 100%;
+    }
+    section.team .team-content-wrapper {
+        height: 370px;
+        object-fit: cover;
+    }
+    section.about-us-9.about-us-main .about-content {
+        padding-top: 18%;
+    }
+
+    section.about-us-hero .au-hero-text h1 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    section.user-guide .card .card-header .accordion-toggle.collapsed i.ug-icon {
+        right: 10px;
+    }
+    section.analytics {
+        margin: 50px auto;
+    }
+    section.analytics .yearly-analytice {
+        padding: 10px;
+        margin-top: 0px;
+    }
+    section.payment-page .single-profile .single-profile-text h1 {
+        font-size: 29px;
+    }
+    section.about-us-hero .au-hero-text p {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    section.comingsoon #clockdiv .time span {
         font-size: 25px;
-        height: 50px;
-        padding: 20px 12px;
-        width: 50px;
-        line-height: 10px;
-        margin-left: 15px;
     }
-    .hero-3 .hero-content h1 {
-        font-size: 45px;
-        line-height: 55px;
-    }
-    .errore-area .errore-text p {
-        width: 100%;
+    section.comingsoon #clockdiv .time .smalltext {
+        font-size: 15px;
+        line-height: 15px;
     }
 
-} //End max 575px
+    section.comingsoon #clockdiv .time {
+        width: 75px;
+        height: 75px;
+        padding: 8px 0px;
+    }
 
+    section.comingsoon #clockdiv .dot {
+        font-size: 52px;
+        padding: 18px 10px;
+    }
+    section.comingsoon h1 {
+        font-size: 40px;
+    }
+    section.comingsoon p {
+        font-size: 16px;
+        line-height: 25px;
+        margin: auto;
+        padding: 25px 0px;
+        max-width: 727px;
+        color: #fff;
+    }
+    section.career-details {
+        padding: 50px 0px;
+    }
+
+    section.sign-up .sign-up-content::before{
+        display: none;
+    }
+    section.sign-up .sign-up-content {
+        margin-top: 50px;
+    }
+    section.terms_condition {
+        padding: 50px 0px;
+    }
+    section.portfolio-details .portfolio-d-text h2 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    section.portfolio-details {
+        margin: 50px auto;
+    }
+
+ } // End max 575px
 // Extra small devices (portrait phones, less than 512px)
 @media  only screen and (max-width: 512px) { 
-    header.header-area .logo-wrapper img {
-        max-width: 100%;
-        width: 100%;
+
+    section.about-us .about-1::before {
+        top: -14%;
     }
-    header.header-area {
-      
+    section.partner {
+        padding: 25px 0px;
+    }
+    section.about-us .about-1::before {
+        top: 6%;
+        height: 330px;
+    }
+    section.about-us {
+        padding: 20px 0px 60px;
+    }
+    section.pricing nav p:first-child {
+        right: 29%;
+    }
+    section.hero-2 {
+        padding: 80px 0px;
+    }
+    section.recent-Work .fortfolio-slide-1 .owl-nav [class*=owl-prev] {
+        right: 13%;
+    }
+    section.fun-fact .single-fune-fact h1.sff {
+        font-size: 40px;
+    }
+    section.client-feedback-2 .cf-top h1 {
+        font-size: 25px;
+    }
+    section.client-feedback-2 .cf-top p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+    section.client-feedback-2 .single-feedback .sf-content{
+        padding: 35px 0px;
+    }
+    section.blog .single-blog2 .sb-text p{
+        display: none;
+    }
+    section.blog .single-blog2 .sb-text h3 {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 10px 0px;
+    }
+    section.blog .single-blog2 .sb-text {
+        padding-top: 50px;
+    }
+    section.hero-5 {
+        overflow: hidden;
+    }
+    section.hero-6 .hero-6-content p {
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px 0px;
+    }
+    section.hero-6 .hero-6-content h1 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    section.hero-7 .hero-content h1 {
+        font-size: 42px;
+        line-height: 54px;
+    }
+    section.hero-7 .hero-content {
+        padding-top: 10%;
+    }
+    section.hero-7 .hero-content p {
+        font-size: 19px;
+        padding: 21px 0px;
+        padding-right: 0;
+        line-height: 30px;
+    }
+    section.about-us-hero.support-hero .search-box {
+        width: 100%;
+        margin-top: 26px;
+    }
+    section.user-guide .card .card-header .accordion-toggle.collapsed {
+        font-size: 13px;
+    }
+    section.career h1 {
+        font-size: 26px;
+    }
+
+} //End max 512px
+ 
+// Extra small devices (portrait phones, less than 493px)
+@media  only screen and (max-width: 492px) { 
+    .h-style1{
+
+        a.btn-1 {
+            padding: 12px 12px;
+            font-size: 11px;
+        }
+        a.btn-1 {
+            padding: 11px 11px;
+            font-size: 10px;
+        }
+    }
+    section.hero-1 .hero-content h1 {
+        font-size: 36px;
+    }
+    section.hero-1 .hero-content .animation-4 {
+        left: 80%;
+    }
+    section.hero-1 .hero-content .animation-5 {
+        left: 79%;
+    }
+    section.hero-1 .hero-content {
+        padding: 0px;
+    }
+    section.hero-1 {
+        padding: 20px 0px;
+    }
+    section.hero-1 .hero-content .animation-1 {
+        z-index: -1;
+    }
+    section.hero-1 .hero-content .animation-2 {
+        display: none;
+    }
+    section.hero-1 .hero-content .animation-3 {
+        z-index: -1;
+    }
+    section.hero-1 .hero-content .animation-4 {
+        z-index: -1;
+    }section.hero-1 .hero-content .animation-5 {
+        z-index: -1;
+    }section.hero-1 .hero-content .animation-6 {
+        z-index: -1;
+    }section.hero-1 .hero-content .animation-7 {
+        z-index: -1;
+  
+    }
+    section.pricing nav p:first-child {
+        right: 31%;
+    }
+    section.pricing nav p:first-child {
+        right: 26%;
+        top: 12%;
+    }
+    section.pricing nav .nav-tabs {
+        max-width: 60px;
+        margin-right: 50px;
+        height: 30px;
+    }
+    section.pricing nav .nav-tabs .nav-link {
+        max-width: 29px;
+    }
+    section.recent-blog {
+        padding: 10px 0px;
+    }
+    section.subscrive h1 {
+        font-size: 26px;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    section.hero-2 .hero-content p {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content {
+        padding-left: 30px;
+    }
+    section.hero-5 .hero-content h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    section.about-us-9.dark .about-content h1 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    section.team .t-top h1{
+        font-size: 24px;
+        line-height: 33px;
+    }
+    section.team .t-top h3{
+        font-size: 18px;
+    }
+.team-slide-1.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+section.our-specialties .our-specialties-details h1 {
+    line-height: 30px;
+    font-size: 22px;
+}
+section.Our-Approach .about-content h1 {
+    font-size: 26px !important;
+    line-height: 32px;
+    padding-top: 10px;
+}
+.error-img {
+    position: relative;
+    padding: 60px 20px;
+}
+section.payment-page .payment-method button {
+    font-size: 10px;
+    padding: 6px 18px;
+}
+section.case-studies .scs-text2 {
+    width: 90%;
+    left: 5%;
+    top: 26%;
+}
+section.about-us-hero .au-hero-text p {
+    font-size: 23px;
+    line-height: 30px;
+}
+section.case-sd-content .csc-text {
+    margin-top: 20px;
+}
+section.portfolio-details .portfolio-d-text {
+   
+    padding: 30px 10px;
+}
+
+ }
+ // End max 492px 
+
+
+// Extra small devices (portrait phones, less than 460px)
+@media  only screen and (max-width: 459px) { 
+
+
+    .h-style1{
+
+        a.btn-1 {
+            padding: 11px 11px;
+            font-size: 10px;
+        }
+    }
+    section.hero-1 .hero-content h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .hero-btn a.btn-2 {
+        max-width: 130px;
+        padding: 10px 0px;
+    }
+    .hero-btn a.btn-3 {
+        max-width: 130px;
         padding: 10px 0px;
     }
 
-    .hero-2 .hero-content .for-appointment .btn-1 {
-        
-        font-size: 14px;
-        padding: 15px 30px;
+    section.hero-1 .hero-content p {
+        font-size: 17px;
+        line-height: 23px;
+        padding: 0;
+        padding-top: 7px;
     }
+    section.about-us .about-content h1 {
+        padding: 8px 0px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    section.about-us .about-content h3 {
+        font-size: 20px;
+    }
+    section.about-us .about-content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    section.pricing nav p:first-child {
+        right: 30%;
+    }
+    section.client-feedback .single-feedback .sf-client .text {
+        left: -20%;
+    }
+    section.service h1 {
+        font-size: 28px;
+    }
+    section.hero-3 .hero-3-content p {
+        font-size: 15px;
+    }
+    section.blog .single-blog .sb-text h1 {
+        font-size: 38px;
+    }
+    section.blog .single-blog2 .sb-text h3 {
 
-    .problrm-solve h2 {
+        font-size: 15px;
+        line-height: 19px;
+        padding: 5px 0px;
+
+    }
+    section.blog .single-blog2 .sb-text h4 {
+        font-size: 13px;
+    }
+    section.hero-4 .hero4-slide .owl-dots{
+        display: none;
+    }
+    section.user-guide .card .card-header .accordion-toggle.collapsed i.ug-icon {
+    
+        top: 25%;
+    }
+    /* section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content h1 {
+        line-height: 23px;
+        font-size: 21px;
+    } */
+
+    section.about-us-hero .au-hero-text h1 {
+        font-size: 35px;
+    }
+    section.about-us-hero .au-hero-text {
+        padding: 70px 0px 54px;
+    }
+    section.about-us-hero.support-hero .au-hero-text h1 {
         font-size: 30px;
-        line-height: 40px;
     }
-    .contact-area .contact-details .cd-info {
-        padding: 60px 5px;
+    section.payment-page {
+        padding: 50px 0px;
     }
-} //End max 512px
+    section.about-us-hero .au-hero-text nav .breadcrumb li {
+        font-size: 14px;
+    }
+    section.about-us-hero .au-hero-text nav .breadcrumb li a{
+        font-size: 14px;
+    }
+
+    section.sign-up .sign-up-content h1 {
+        font-size: 34px;
+        line-height: 47px;
+    }
+    section.portfolio-details .portfolio-d-text h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+ }// End Max 459px 
+
  
-
-// Extra small devices (portrait phones, less than 434px)
-@media  only screen and (max-width: 480px) { 
-
-.hero-2 .hero-content .for-appointment i{
-    display: none;
-}
-.cell-number {
-    display: none;
-}
-.hero-3 .hero-content h1 {
-    font-size: 30px;
-    line-height: 36px;
-}
-
-.hero-3 .hero-content p {
-    font-size: 14px;
-    line-height: 25px;
-}
-.commingsoon #clockdiv .time span {
-    font-size: 40px;
-    line-height: 50px;
-}
-
-.commingsoon #clockdiv .time {
-    width: 80px;
-}
-} // End max 480px
-
-
 // Extra small devices (portrait phones, less than 434px)
 @media  only screen and (max-width: 434px) { 
 
-   
-    .video {
-        margin-top: 60px;
+    .h-style1{
+
+        a.btn-1 {
+            padding: 11px 9px;
+            font-size: 9px;
+        }
+        .nav-brand a {
+            padding: 10px 0px;
+        }
+    }
+    section.partner {
+        position: relative;
+        padding: 20px 0px;
+    }
+    section.pricing .price-catagory a {
+        left: 30%;
+    }
+    section.footer-details {
+        padding: 40px 0px;
+    }
+    .h-style1.h-style2 a.btn-1 {
+        font-size: 9px;
+    }
+    section.about-us .about-content h1 {
+        line-height: 33px;
+    }
+    section.about-us.about-us-2 p {
+        font-size: 15px;
     }
 
-    .testimonial .client button.owl-prev {
-        display: none;
+    section.about-us-5 .about-content::before {
+        top: 40%;
+        left: 20%;
+        width: 200px;
+        height: 200px;
     }
-    .testimonial .client button.owl-next {
-        display: none;
+    section.about-us-5 .about-content h1 {
+        font-size: 28px;
     }
-    .testimonial .test-img img {
-        max-width: 100%;
-        width: 100%;
+    section.blog .single-blog2 .sb-text h3 {
+        font-size: 14px;
+        line-height: 17px;
     }
-    .hero-area.hero-3 .hero-content {
-        padding: 149px 10px;
+    section.blog .single-blog2 .sb-text a {
+        padding-top: 2px;
+        font-size: 12px;
     }
-    .about-3 {
-        padding: 100px 0;
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content h3 {
+        line-height: 34px;
+        font-size: 16px;
     }
-    .inner-hero .page-tittle {
-        padding: 130px 0px;
-    }
-    h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
+        section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content h1 {
+            line-height: 27px;
+            font-size: 23px;
+        }
+        section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content a.btn-3 {
+            margin-top: 25px;
+        }
+        
+        section.about-us-7 .about-img::before{
+            display: none;
+        }
+        section.about-us-7 .about-img {
+            width: 100%;
+            left: 0;
+        }
 
+        section.about-us-7 {
+            padding-top: 50px;
+        }
+        section.about-us-7 .about-content {
+            padding: 50px 0px;
+            width: 100%;
+            left: 0;
+        }
+        section.about-us-7 .about-content h3 {
+            font-size: 21px;
+            line-height: 37px;
+        }
+        section.about-us-7 .about-content h1 {
+            font-size: 33px;
+            line-height: 40px;
+        }
 
+        section.about-us-9.dark .about-content h1 {
+            font-size: 25px;
+            line-height: 36px;
+        }
+        section.hero-7 .hero-content h1 {
+            font-size: 34px;
+            line-height: 46px;
+        }
+        section.hero-7 .hero-content p {
+            font-size: 17px;
+            padding: 17px 0px;
+            line-height: 27px;
+        }
+        section.about-us-9.about-us-main .about-content h1 {
+            font-size: 30px;
+        }
+        section.about-us-9.about-us-main .about-counter .ab-counter h1 {
+            font-size: 30px;
+        }
+        section.about-us-9.about-us-main .about-counter .ab-counter p {
+            color: #fff;
+            line-height: 24px;
+            font-size: 16px;
+        }
+        section.about-us-9.about-us-main .about-counter .ab-counter {
+            width: 150px;
+            padding: 20px;
+            height: 129px;
+        }
+
+        section.about-us-9.about-us-main .e-solution-details p {
+            padding: 10px 0px;
+            line-height: 26px;
+            font-size: 16px;
+        }
+        section.blog-page .single-bloge-post h1 {
+            font-size: 20px;
+            margin-top: 0;
+            line-height: 30px;
+        }
+        section.payment-page .single-profile .single-profile-text {
+            padding-top: 0;
+            padding-left: 5%;
+        }
+        section.about-us-hero .au-hero-text p {
+            font-size: 19px;
+        }
+        section.payment-page h2 {
+            font-size: 29px;
+        }
+        section.contact-us .contact-details h2 {
+            font-size: 29px;
+        }
+        section.comingsoon #clockdiv .time {
+            width: 55px;
+            height: 65px;
+            padding: 4px 0px;
+            border-radius: 10px;
+        }
+        section.comingsoon #clockdiv .time span {
+            font-size: 20px;
+        }
+        section.comingsoon #clockdiv .time .smalltext {
+            font-size: 12px;
+            line-height: 10px;
+        }
+        section.comingsoon #clockdiv .dot {
+            font-size: 35px;
+            padding: 14px 10px;
+        }
+        section.portfolio .aspect__inner h3 {
+           
+            font-size: 17px;
+        }
+        section.service-details-page .service-dp-text h1 {
+            font-size: 20px;
+            line-height: 30px;
+        }
  } // End max 434px
 
  
 // Extra small devices (portrait phones, less than 402px)
 @media  only screen and (max-width: 402px) { 
-    .commingsoon #clockdiv .time {
-        width: 60px;
+
+
+    .h-style1{
+
+        a.btn-1 {
+            padding: 10px 8px;
+            font-size: 8px;
+        }
     }
-    .commingsoon #clockdiv .time span {
+    section.hero-1 .hero-content .animation-5{
+        display: none;
+    }
+    section.hero-1 .hero-content .animation-4{
+        display: none;
+    }
+    section.pricing nav p:first-child {
+        right: 33%;
+    }
+    section.client-feedback .single-feedback .sf-client .text {
+        left: -15%;
+    }
+    section.recent-blog .blog-slide-1 .owl-nav [class*=owl-prev] {
+        right: 11%;
+    }
+    section.recent-blog h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    section.recent-blog h3 {
+        font-size: 18px;
+    }
+    section.recent-blog {
+        padding: 10px 0px;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    section.hero-2 .hero-content p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    section.about-team .about-content h1 {
+        padding: 0px;
+        font-size: 25px;
+    }
+    section.about-team .about-content h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    section.about-team .about-content {
+        padding-top: 0;
+        padding: 50px 0px;
+    }
+    section.about-team .about-content p {
+        padding-bottom: 15px;
+    }
+    section.hero-3 .hero-3-content h1 {
+        font-size: 23px;
+    }
+    section.hero-3 .hero-3-content p {
+        font-size: 14px;
+    }
+    section.hero-3 .hero-3-content {
+        padding: 130px 10px;
+    }
+    section.hero-3 .hero-3-content {
+        padding: 100px 0px;
+    }
+    section.blog .single-blog2 .sb-text {
+        padding-top: 15px;
+    }
+    section.blog .single-blog2 .sb-text h3 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .hero-3-content a.btn-2 {
+        max-width: 103px;
+        font-size: 10px;
+        padding: 3px 0px;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content a.btn-3 {
+        max-width: 103px;
+        font-size: 10px;
+        padding: 3px 0px;
+        margin-left: 10px;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content {
+        padding: 110px 0px;
+        padding-left: 30px;
+    }
+    section.hero-6 .hero-6-content h1 {
+        font-size: 20px;
+    }
+    section.hero-6 .hero-6-content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    section.about-us-9.dark .about-content h1 {
+        font-size: 19px;
+        line-height: 31px;
+    }
+    section.about-us-9.dark .about-content p {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 10px 0px 30px;
+    }
+
+    section.about-niksta-1 {
+        padding-top: 50px;
+    }
+
+    .error-content h1 {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    section.payment-page .payment-method {
+        padding: 50px 15px;
+    }
+    section.payment-page h1 {
+        font-size: 27px;
+    }
+    section.payment-page .single-profile .single-profile-text h1 {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    section.case-studies .scs-text2 h2 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    section.case-studies-details .csd-text {
+        width: 150px;
+        padding: 11px;
+    }
+    section.payment-page h2 {
+        font-size: 29px;
+    }
+    section.google-map .map {
+        height: 350px;
+    }
+    section.comingsoon h1 {
         font-size: 30px;
-        line-height: 44px;
     }
-    .contact-area .contact-details h2 {
-        font-size: 24px;
-        line-height: 34px;
+    section.comingsoon p {
+        font-size: 14px;
+        line-height: 22px;
+        margin: auto;
+        padding: 18px 0px;
+        max-width: 567px;
+        padding-bottom: 40px;
+        color: #fff;
     }
+    section.career-details .career-d-p p {
+
+        font-size: 16px;
+    }
+    section.career-details .career-d-resposibilities h1{
+        font-size: 27px;
+    }
+    section.sign-up .sign-up-content h1 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    section.sign-up .sign-up-content p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
  } // End max 402px
 
 // Extra small devices (portrait phones, less than 388px)
 @media  only screen and (max-width: 388px) { 
 
- 
+    .h-style1{
+      
+        .nav-brand a {
+           max-width: 145px;
+        } 
+        .col-3.col-md-2 {
+            padding: 0;
+        }
+
+    }
+    section.hero-1 .hero-content p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    section.hero-1 .hero-content h1 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    section.hero-1 .hero-content .animation-6 {
+        top: 23%;
+    }
+
+    section.partner .partner-logo {
+        margin: 8px 10px;
+    }
+    section.about-us .about-1::before {
+        top: -8%;
+        height: 330px;
+    }
+    section.pricing .price-top h4 {
+        font-size: 14px;
+    }
+    .price-catagory a.btn-2 {
+        max-width: 136px;
+        font-size: 15px;
+        padding: 10px 0px;
+        bottom: -7%;
+    }
+    section.recent-Work .fortfolio-slide-1 .owl-nav [class*=owl-prev] {
+        right: 15%;
+    }
+    section.recent-Work .fortfolio-slide-1 .owl-nav [class*=owl-prev] {
+        top: -7%;
+    }
+    section.recent-Work .fortfolio-slide-1 .owl-nav [class*=owl-next] {
+        top: -7%;
+    }
+    section.about-us .about-content h1 {
+        line-height: 28px;
+    }
+    section.blog .single-blog .sb-text h1 {
+        font-size: 32px;
+        line-height: 36px;
+        padding: 10px 0px;
+    }
+    section.blog .single-blog .sb-text h2 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    section.blog .single-blog .sb-text a {
+        font-size: 17px;
+    }
+    section.blog .single-blog .sb-text a .flaticon-arrow-pointing-to-right {
+        right: 41%;
+        font-size: 25px;
+    }
+    section.recent-blog2 .rb2-text h2 {
+        font-size: 14px;
+        padding: 5px 0px;
+        line-height: 22px;
+    }
+    section.recent-blog2 .rb2-text a {
+        font-size: 12px;
+    }
+    section.hero-5 .hero-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    section.about-us-9.about-us-main .e-solution-details .esd-all ul li {
+        padding: 7px 0px;
+    }
+    section.about-us-9.about-us-main .e-solution-details .esd-all ul li a{
+        font-size: 12px;
+    }
+    section.case-studies.padding-to-minas h1 {
+        font-size: 25px;
+    }
+
  }// End max 388px
 
-// Extra small devices (portrait phones, less than 359px)
-@media  only screen and (max-width: 359px) { 
-   
-    h1 {
-        font-size: 30px;
-        line-height: 35px;
+ // Extra small devices (portrait phones, less than 375px)
+@media  only screen and (max-width: 375px) { 
+
+    section.about-us .about-content h1 {
+        padding: 5px 0px;
+        font-size: 21px;
+        line-height: 33px;
     }
-    .commingsoon #clockdiv .dot {
+    section.features .single-features .sf-content p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    section.features .single-features .sf-content h3 {
         font-size: 20px;
-        padding: 80px 5px;
+        line-height: 25px;
+        padding: 10px 0px;
     }
-    .commingsoon .com-logo {
-        padding: 0px 20px;
+    section.pricing .price-top h1 {
+        font-size: 15px;
     }
-    .commingsoon .com-logo img {
-        max-width: 100%; 
-        width: 100%;
+    section.pricing nav p:first-child {
+        right: 37%;
+        font-size: 12px;
     }
+    section.pricing nav p:last-child {
+        font-size: 12px;
+    }
+    section.pricing nav .nav-tabs {
+        margin-right: 42px;
+    }
+    .h-style1.h-style2 a.btn-1 {
+        font-size: 8px;
+        border-radius: 3px;
+    }
+    section.hero-2 .hero-content h1 {
+    font-size: 26px;
+    line-height: 34px;
+}
+section.recent-blog2 .rb2-text h2 {
+    font-size: 13px;
+}
+section.recent-blog2 .rb2-text p {
+    font-size: 12px;
+    line-height: 20px;
+}
+section.pricing-2 .price-top h1 {
+    font-size: 30px;
+}
+section.pricing-2 .price-top h4 {
+    font-size: 21px;
+}
+
+section.comingsoon .f-details ul.social li {
+    width: 40px;
+    height: 40px;
+}
+section.comingsoon .f-details ul.social li a i {
+    font-size: 16px;
+    padding: 11px;
+}
+
+
+
+}// End max 375px
+
+
+
+// Extra small devices (portrait phones, less than 359px)
+@media  only screen and (max-width: 365px) { 
+
+    section.client-feedback .single-feedback .sf-client .text h3 {
+        font-size: 19px;
+        line-height: 15px;
+    }
+    section.client-feedback .single-feedback .sf-client .text {
+        top: 14px;
+    }
+    section.subscrive h1 {
+        font-size: 22px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .h-style1 a.btn-1 {
+        padding: 8px 6px;
+    }
+
+    section.about-team {
+        padding: 0px;
+    }
+    section.client-feedback-2 .cf-top h1 {
+        font-size: 21px;
+    }
+    section.client-feedback-2 .cf-top p {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    section.blog .single-blog .sb-text {
+        top: 14%;
+    }
+    section.blog .single-blog2 .sb-text h3 {
+        font-size: 11px;
+    }
+    
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content h1 {
+        line-height: 23px;
+        font-size: 18px;
+    }
+    section.hero-4 .hero4-slide .hero-content-wrapper .hero-3-content h3 {
+        line-height: 22px;
+        font-size: 13px;
+    }
+    section.about-us-7 .about-content a.btn-2 {
+        max-width: 110px;
+        font-size: 12px;
+        padding: 8px 0px;
+    }
+    section.about-us-7 .about-content a.btn-3 {
+        max-width: 110px;
+        font-size: 12px;
+        padding: 8px 0px;
+    }
+    section.about-us-7 .about-content h1 {
+        font-size: 29px;
+        line-height: 32px;
+    }
+
+    section.fun-fact-2 {
+        margin-top: 20px;
+    }
+section.about-us-7 {
+    padding-top: 10px;
+}
+section.recent-blog2 .rb2-text h2 {
+    font-size: 12px;
+    line-height: 18px;
+}
+section.recent-blog2 .rb2-text h4 {
+    font-size: 10px;
+    line-height: 14px;
+}
+section.hero-5 .hero-content h1 {
+    font-size: 27px;
+    line-height: 35px;
+}
+section.about-us-9 .about-content h1 {
+    font-size: 28px;
+    line-height: 35px;
+}
+section.hero-6 .hero-6-content p {
+    font-size: 12px;
+    line-height: 22px;
+}
+section.hero-7 .hero-content h1 {
+    font-size: 28px;
+    line-height: 42px;
+}
+section.hero-7 .hero-content p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+section.about-us-9.about-us-main .e-solution-details h1{
+    font-size: 30px;
+    line-height: 48px;
+}   
+section.about-us-9.about-us-main .e-solution-details h3 {
+    font-size: 19px;
+    line-height: 24px;
+}
+section.our-specialties .our-specialties-details h1 {
+    line-height: 25px;
+    font-size: 20px;
+}
+section.our-specialties .our-specialties-details h3 {
+    font-size: 16px;
+}
+section.information .information-text p {
+    font-size: 14px;
+}
+section.client-feedback-2 .cf-top {
+    padding: 0px 5px;
+    padding-bottom: 30px;
+}
+section.about-us-hero .au-hero-text h1 {
+    font-size: 28px;
+}
+section.about-us-hero.support-hero .au-hero-text h1 {
+    font-size: 25px;
+}
+
+section.payment-page .payment-method button {
+    font-size: 10px;
+    padding: 3px 8px;
+}
+
+section.case-studies .scs-text2 {
+    top: 9%;
+    left: 10%;
+}
+section.case-studies-details .csd-text p {
+
+    line-height: 24px;
+}
+section.case-sd-content .csc-text .blog-share-icon ul.social li {
+   
+    margin-bottom: 8px;
+}
+section.case-sd-content .csc-text .blog-share-icon p {
+ 
+    font-size: 13px;
+}
+
+section.contact-us .single-contact .sc-text2 span {
+    padding: 0px;
+}
+section.comingsoon #clockdiv .time {
+    width: 49px;
+    height: 58px;
+    padding: 4px 0px;
+    border-radius: 10px;
+}
+
+section.comingsoon {
+    padding: 100px 0px;
+}
+
+section.sign-up .sign-up-content h1 {
+    font-size: 26px;
+    line-height: 35px;
+}
+section.terms_condition .tab-content .active h3 {
+
+    font-size: 20px;
+}
+
+
 }
 
 

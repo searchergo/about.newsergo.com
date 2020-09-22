@@ -1,18 +1,24 @@
 // Variables
 
 //Font Variables
-$primaryFont: 'Playfair Display', serif;
-$secondaryFont:'Poppins', sans-serif;
-$quinaryFont: 'Oswald', sans-serif;
+$primaryFont: 'Circular Std';
+$secondaryFont:'Circular Std Book';
+//$secondaryFont: 'Roboto', sans-serif;
+//$quaternaryFont: 'Adamina', serif;
+//$quinaryFont: 'Libre Baskerville', serif;
 
 // Color Variables
 $primaryColor: #fff;
-$secondaryColor: #c79e56;
-$h-tag-Color: #111111;
-$paragraphColor: #515151;
+$secondaryColor: #43435b;
+$tertiaryColor: #101015;
+$quaternaryColor: #545361;
 
 // Background color
-$tertiaryColor:#dcbc95;
-$btnbgColortr:transparent;
+$primarybgColor:#ffc854;
+$secondarybgColor:#4e76a4;
+$tertiaryColor:#de5558;
+$hoverbgColor:rgb(86, 194, 226);
+$btnbgColor3:transparent;
+$btnbgColor4:#ffc854de;
 //$btnhover1:#ffcc62;
 

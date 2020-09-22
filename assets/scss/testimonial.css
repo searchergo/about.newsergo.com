@@ -1,0 +1,207 @@
+/*  testmonial style */
+section.client-feedback {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding: 50px 0px 100px; }
+  section.client-feedback h1 {
+    padding-bottom: 60px; }
+  section.client-feedback .single-feedback {
+    position: relative;
+    width: 100%;
+    margin: 35px auto; }
+    section.client-feedback .single-feedback .sf-content {
+      position: relative;
+      width: 100%;
+      text-align: left;
+      background: #ffffff;
+      padding: 70px 22px;
+      z-index: 1;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px -1px 27px -12px rgba(0, 0, 0, 0.36);
+      -moz-box-shadow: 0px -1px 27px -12px rgba(0, 0, 0, 0.36);
+      box-shadow: 0px -1px 27px -12px rgba(0, 0, 0, 0.36); }
+      section.client-feedback .single-feedback .sf-content::before {
+        position: absolute;
+        content: '';
+        width: 50px;
+        background: #ffffff;
+        height: 50px;
+        left: 14px;
+        bottom: -25px;
+        transform: rotate(-45deg);
+        -webkit-box-shadow: -15px 10px 26px -17px rgba(0, 0, 0, 0.42);
+        -moz-box-shadow: -15px 10px 26px -17px rgba(0, 0, 0, 0.42);
+        box-shadow: -15px 10px 26px -17px rgba(0, 0, 0, 0.42);
+        z-index: -1; }
+    section.client-feedback .single-feedback .flaticon-double-quotes {
+      font-size: 30px;
+      color: #ffe14e;
+      margin: 0;
+      position: absolute;
+      right: 6%;
+      bottom: 5%; }
+    section.client-feedback .single-feedback .flaticon-quote {
+      position: absolute;
+      top: 24%;
+      left: 7%;
+      font-weight: 600;
+      margin: 0;
+      z-index: -1;
+      transform: rotate(180deg);
+      color: #e7e6e9 !important;
+      font-size: 80px !important; }
+    section.client-feedback .single-feedback .sf-client {
+      position: relative;
+      width: 100%;
+      padding-top: 70px; }
+      section.client-feedback .single-feedback .sf-client .icon {
+        position: relative;
+        max-width: 60px;
+        height: 60px;
+        float: left;
+        border-radius: 50%; }
+      section.client-feedback .single-feedback .sf-client .text {
+        text-align: left;
+        position: relative;
+        top: 5px;
+        left: -15%;
+        display: inline-block; }
+  section.client-feedback::before {
+    position: absolute;
+    background-image: url(../img/bg-img/about-bg.png);
+    background-position: center;
+    content: '';
+    width: 54%;
+    height: 100%;
+    top: 15%;
+    right: -24%;
+    background-repeat: no-repeat; }
+
+section.client-feedback.no-bg {
+  position: relative; }
+  section.client-feedback.no-bg::before {
+    display: none; }
+
+section.client-feedback-2 {
+  position: relative;
+  overflow: unset; }
+  section.client-feedback-2::before {
+    background-image: url(../img/bg-img/about-5-bg.png);
+    width: 54%;
+    height: 100%;
+    transform: rotate(-34deg);
+    top: -18%;
+    left: -10%; }
+  section.client-feedback-2 .cf-top {
+    position: relative;
+    padding-bottom: 30px; }
+    section.client-feedback-2 .cf-top h3 {
+      color: #4e76a4; }
+    section.client-feedback-2 .cf-top h1 {
+      padding: 0; }
+  section.client-feedback-2 .single-feedback {
+    position: relative;
+    border: 1.5px solid #e1e1e1;
+    padding: 20px;
+    transition: .5s ease;
+    background: #fff;
+    z-index: 1; }
+    section.client-feedback-2 .single-feedback:hover {
+      -webkit-box-shadow: 0px -1px 27px -12px rgba(0, 0, 0, 0.36);
+      -moz-box-shadow: 0px -1px 27px -12px rgba(0, 0, 0, 0.36);
+      box-shadow: 0px -1px 27px -12px rgba(0, 0, 0, 0.36); }
+    section.client-feedback-2 .single-feedback .sf-content {
+      background: none;
+      padding: 0px;
+      border-radius: 0;
+      box-shadow: none; }
+      section.client-feedback-2 .single-feedback .sf-content::before {
+        display: none; }
+      section.client-feedback-2 .single-feedback .sf-content .flaticon-quote {
+        position: absolute;
+        top: 0%;
+        left: -2%;
+        font-weight: 500;
+        margin: 0;
+        z-index: -1;
+        transform: rotate(180deg);
+        color: #e7e6e9 !important;
+        font-size: 56px !important; }
+    section.client-feedback-2 .single-feedback .sf-client {
+      padding-top: 10px; }
+      section.client-feedback-2 .single-feedback .sf-client .text .flaticon-double-quotes {
+        font-size: 80px;
+        color: #edf1f6;
+        margin: 0;
+        position: absolute;
+        bottom: 15%;
+        z-index: -1;
+        left: 85%; }
+
+section.client-feedback.bg-blue {
+  position: relative;
+  padding: 100px 0px;
+  background: #eff6ff; }
+  section.client-feedback.bg-blue::before {
+    display: none; }
+  section.client-feedback.bg-blue h1 {
+    padding-bottom: 0px; }
+  section.client-feedback.bg-blue .single-feedback .sf-content {
+    padding: 40px 22px; }
+    section.client-feedback.bg-blue .single-feedback .sf-content p {
+      line-height: 23px; }
+
+section.no-background {
+  position: relative; }
+  section.no-background::before {
+    display: none; }
+
+section.client-feedback.dark {
+  position: relative;
+  background: #0a1b2b; }
+  section.client-feedback.dark h3 {
+    color: #fff; }
+  section.client-feedback.dark .sf-content {
+    position: relative;
+    background: #142838; }
+    section.client-feedback.dark .sf-content::before {
+      background: #142838; }
+    section.client-feedback.dark .sf-content .flaticon-quote {
+      color: #0a1b2b !important; }
+
+/* End  testmonial style */
+/* Subscrive Section Style */
+section.subscrive {
+  position: relative;
+  text-align: center;
+  background: #f5f7f9;
+  padding: 70px 0px; }
+  section.subscrive h1 {
+    padding-bottom: 40px; }
+  section.subscrive .form-control {
+    height: 60px;
+    font-size: 16px;
+    padding-left: 20px;
+    width: 100%; }
+    section.subscrive .form-control:focus {
+      box-shadow: none;
+      outline-style: none;
+      border-color: #ffc854; }
+  section.subscrive .sub-btn {
+    height: 60px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    background: #ffc854; }
+
+section.subscrive.dark {
+  position: relative;
+  background: #071726; }
+  section.subscrive.dark .form-control {
+    background: #0a1b2b;
+    border-color: #112b44; }
+
+/*/ Subscrive Section Style */
+
+/*# sourceMappingURL=testimonial.css.map */

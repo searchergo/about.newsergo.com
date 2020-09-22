@@ -21,8 +21,9 @@
 
 .nav-brand a {
   display: block;
-  padding: 11px 11px 11px 0px;
-  color: rgb(255, 255, 255);
+  padding: 11px 11px 11px 20px;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: normal;
   line-height: 17px;
@@ -36,8 +37,8 @@
 
 @media (min-width: 768px) {
   #main-menu {
-    clear: none;
     float: right;
+    clear: none;
   }
 }
 
@@ -54,10 +55,10 @@
   text-indent: 29px;
   white-space: nowrap;
   overflow: hidden;
-  z-index: 99999;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 /* hamburger icon */
 
@@ -69,7 +70,7 @@
   left: 2px;
   height: 2px;
   width: 24px;
-  background: rgb(255, 255, 255);
+  background: #333;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
@@ -153,6 +154,8 @@
 
 body {
   background: #fff;
+  color: #aaa;
+  font: 16px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .demo-text {

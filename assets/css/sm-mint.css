@@ -1,13 +1,17 @@
 .sm-mint {
   /* border-top: 2px solid #8db863;
   border-bottom: 2px solid #8db863; */
-  background: #191919;
+  background: #fff;
 }
-
-
 .sm-mint a, .sm-mint a:hover, .sm-mint a:focus, .sm-mint a:active {
+  padding: 13px 20px;
   /* make room for the toggle button (sub indicator) */
-  color: #c79e56;
+  padding-right: 58px;
+  color: #333;
+  font-family: 'Circular Std';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
   text-decoration: none;
 }
 .sm-mint a.current {
@@ -28,8 +32,7 @@
   font: bold 14px/34px monospace !important;
   text-align: center;
   text-shadow: none;
-  color: #fff;
-  background: #c79e56;
+  background: rgba(141, 184, 99, 0.2);
   border-radius: 4px;
 }
 .sm-mint a .sub-arrow::before {
@@ -38,12 +41,14 @@
 .sm-mint a.highlighted .sub-arrow::before {
   content: '-';
 }
-
-/* .sm-mint > li:first-child {
+.sm-mint li {
+  /* border-top: 1px solid rgba(141, 184, 99, 0.2); */
+}
+.sm-mint > li:first-child {
   border-top: 0;
-} */
+}
 .sm-mint ul {
-  background: #232222;
+  background: rgba(141, 184, 99, 0.2);
 }
 .sm-mint ul a, .sm-mint ul a:hover, .sm-mint ul a:focus, .sm-mint ul a:active {
   font-size: 14px;
@@ -74,14 +79,6 @@
   border-left: 40px solid transparent;
 }
 
-@media (min-width: 1200px) {
-
-  
-
-}
-
-
-
 @media (min-width: 768px) {
   /* Switch to desktop layout
   -----------------------------------------------
@@ -89,21 +86,17 @@
      collapsible to desktop (navbar + dropdowns)
   -----------------------------------------------*/
   /* start... (it's not recommended editing these rules) */
- 
 
-  header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a {
-    color: rgb(0, 0, 0);
-    transition: .5s ease;
+
+  header.header-area.nav-fixed nav ul.sm-mint > li > a {
+    color: white;
 }
-
-header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
-  border-color: #000000 transparent transparent transparent;
-  transition: .5s ease;
+header.header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
+  border-color: #fffcfc transparent transparent transparent;
 }
-
   .sm-mint ul {
     position: absolute;
-    width: 14em !important;
+    width: 12em;
   }
 
   .sm-mint li {
@@ -113,9 +106,17 @@ header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
   .sm-mint.sm-rtl li {
     float: right;
   }
-  
-.sm-mint>li>a:hover{
-  color: #c79e56 !important;
+  .sm-mint>li>a:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    transition: .5s ease;
+    height: 3px;
+    background: #4e76a4;
+    bottom: 7px;
+}
+.sm-mint>li>a:hover::before{
+  width: 50%;
 }
   .sm-mint ul li, .sm-mint.sm-rtl ul li, .sm-mint.sm-vertical li {
     float: none;
@@ -123,7 +124,6 @@ header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
 
   .sm-mint a {
     white-space: nowrap;
-    transition: .5s ease;
   }
 
   .sm-mint ul a, .sm-mint.sm-vertical a {
@@ -133,7 +133,6 @@ header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
   .sm-mint .sm-nowrap > li > a, .sm-mint .sm-nowrap > li > :not(ul) a {
     white-space: nowrap;
     padding-left: 10px;
-    transition: .5s ease;
   }
 
   /* ...end */
@@ -142,30 +141,25 @@ header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
     background: transparent;
   }
   .sm-mint a, .sm-mint a:hover, .sm-mint a:focus, .sm-mint a:active, .sm-mint a.highlighted {
-    padding: 14px 20px;
-    color: #ffffff !important;
-    cursor: pointer;
-
+    padding: 18px 20px;
+    color: #333;
   }
-
-  header.mextreo-header-area.mha-inner .sm-mint a {
-    transition: .5s ease !important;
-    color: #000000;
-}
- 
   .sm-mint a:hover, .sm-mint a:focus, .sm-mint a:active {
-    color:#ffffff;
+    color: #000;
   }
   .sm-mint a.highlighted {
      background: transparent; 
-    color: #fffefe;
+    color: #333;
   }
   .sm-mint a.disabled {
     background: transparent;
-    color: #ffffff;
+    color: #cccccc;
     box-shadow: none;
   }
-.sm-mint a .sub-arrow {
+  .sm-mint a.has-submenu {
+    padding-right: 34px;
+  }
+  .sm-mint a .sub-arrow {
     top: 50%;
     margin-top: -3px;
     right: 20px;
@@ -173,54 +167,49 @@ header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
     height: 0;
     border-width: 6px 4.02px 0 4.02px;
     border-style: solid dashed dashed dashed;
-    border-color: #ffffff transparent transparent transparent;
+    border-color: #000000 transparent transparent transparent;
     background: transparent;
     border-radius: 0;
   }
-
   .sm-mint a:hover .sub-arrow, .sm-mint a:focus .sub-arrow, .sm-mint a:active .sub-arrow {
-    border-color: #c79e56  transparent transparent transparent;
+    border-color: #fff transparent transparent transparent;
   }
   .sm-mint a.highlighted .sub-arrow {
-    border-color: #c79e56  transparent transparent transparent;
+    border-color: #000000 transparent transparent transparent;
   }
   .sm-mint a.disabled .sub-arrow {
-    border-color: #c79e56  transparent transparent transparent;
+    border-color: #000000 transparent transparent transparent;
   }
   .sm-mint a .sub-arrow::before {
     display: none;
   }
- /*  .sm-mint li {
+  .sm-mint li {
     border-top: 0;
-  } */
+  }
   .sm-mint ul {
     border: 0;
-    padding: 30px 25px 30px 20px;
-    background: #ffffff;
-    border-radius:15px;
-    border-top-left-radius: 0;
+    padding: 0;
+    background: #F6FFED;
+    border-radius:inherit;
     box-shadow: 0 4px 3px rgba(0, 0, 0, 0.25);
   }
   .sm-mint ul ul {
-    /* border-radius: 0px; */
-    margin-left: 204px !important;
+    border-radius: 4px;
   }
- 
   .sm-mint ul a, .sm-mint ul a:hover, .sm-mint ul a:focus, .sm-mint ul a:active, .sm-mint ul a.highlighted {
     border: 0 !important;
     padding: 10px 20px;
-    font-size: 16px;
+    color: #333;
     border-radius: 0;
-    color: #000 !important;
   }
   .sm-mint ul a:hover, .sm-mint ul a:focus, .sm-mint ul a:active, .sm-mint ul a.highlighted {
-    background: #ffffff00;
-    color: #c79e56  !important;
+    background: #4e76a4;
+    color: #fff;
     box-shadow: none;
   }
   .sm-mint ul a.disabled {
     background: transparent;
-    color: #ffffff;
+    color: #b3b3b3;
   }
   .sm-mint ul a.has-submenu {
     padding-right: 20px;
@@ -230,15 +219,15 @@ header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
     margin-top: -4.02px;
     border-width: 4.02px 0 4.02px 6px;
     border-style: dashed dashed dashed solid;
-    border-color: transparent transparent transparent #000000 !important;
+    border-color: transparent transparent transparent #4e76a4 !important;
   }
   .sm-mint ul a:hover .sub-arrow, .sm-mint ul a:focus .sub-arrow, .sm-mint ul a:active .sub-arrow, .sm-mint ul a.highlighted .sub-arrow {
-
-    border-color: transparent transparent transparent #c79e56  !important;
+    
+    border-color: transparent transparent transparent #ffffff !important;
   }
-/*   .sm-mint ul a.disabled .sub-arrow {
-    border-color: transparent transparent transparent #ff007a;
-  } */
+  .sm-mint ul a.disabled .sub-arrow {
+    border-color: transparent transparent transparent #8db863;
+  }
   .sm-mint .scroll-up,
   .sm-mint .scroll-down {
     position: absolute;
@@ -356,20 +345,16 @@ header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
     padding: 10px 20px;
   }
 }
-header.header-area .main-menu-btn-icon, header.header-area .main-menu-btn-icon:before, header.header-area .main-menu-btn-icon:after {
-  background: #c79e56;
+header.header-area.h-style2 .main-menu-btn-icon, header.header-area.h-style2 .main-menu-btn-icon:before, header.header-area.h-style2 .main-menu-btn-icon:after {
+  background: #fff;
 }
-/* header.header-area.nav-fixed .main-menu-btn-icon, header.header-area.nav-fixed .main-menu-btn-icon:before, header.header-area.nav-fixed .main-menu-btn-icon:after {
-  background: #ff007a;
-} */
 header.header-area.h-style3 .main-menu-btn-icon, header.header-area.h-style3 .main-menu-btn-icon:before, header.header-area.h-style3 .main-menu-btn-icon:after {
   background: #fff;
 }
-/* header.header-area.error .main-menu-btn-icon, header.header-area.error .main-menu-btn-icon:before, header.header-area.error .main-menu-btn-icon:after {
-  background: #ff007a;
-} */
-
-ul.sm-mint>li>a{
-  transition: unset !important;
+header.header-area.h-style7 .main-menu-btn-icon, header.header-area.h-style7 .main-menu-btn-icon:before, header.header-area.h-style7 .main-menu-btn-icon:after {
+  background: rgb(0, 0, 0);
+}
+header.header-area.h-style2 .main-menu-btn-icon, header.header-area.h-style2 .main-menu-btn-icon:before, header.header-area.h-style2 .main-menu-btn-icon:after {
+  background: rgb(0, 0, 0);
 }
 /*# sourceMappingURL=sm-mint.css.map */

@@ -1,0 +1,403 @@
+
+/*---------------Pricing Style-----------------------------*/
+
+
+section.pricing {
+    position: relative;
+    overflow: hidden;
+    margin: 150px 0px 100px;
+    
+
+    &::before{
+        position: absolute;
+        background-image: url(../img/bg-img/about-bg.png);
+        background-position: center;
+        content: '';
+        width: 57%;
+        height: 100%;
+        top: -4%;
+        left: -42%;
+        background-repeat: no-repeat;
+    }
+    .price-top {
+        position: absolute;
+    }
+    nav{
+        position: relative;
+        p{
+            &:first-child{
+                position: absolute;
+                right: 20%;
+                top: 12%;
+                font-size: 20px;
+            }
+            
+            &:last-child{
+                position: absolute;
+                right: 0;
+                top: 12%;
+                font-size: 20px;
+            }
+        }
+        .nav-tabs{
+            border: none;
+        }
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            background-color: #4e76a4;
+            border-radius: 4px;
+            
+        }
+        .nav-tabs .nav-link {
+            border: none;
+            max-width: 59px;
+            width: 100%;
+        }
+        .nav-tabs {
+            border: 1px solid #4e76a4 !important;
+            max-width: 120px;
+            border-radius: 5px;
+            margin-left: auto;
+            margin-right: 80px;
+            height: 47px;
+            margin-bottom: 50px;
+        }
+    }
+    
+    .price-catagory {
+        position: relative;
+        padding: 20px;
+        text-align: center;
+        background: $primaryColor;
+        margin: 25px auto;
+        transition: .5s ease;
+        border: 1.5px solid #e3e3e3;
+       
+
+        &:hover{
+            -webkit-box-shadow: 0px 1px 32px 3px rgba(204,204,204,0.3);
+            -moz-box-shadow: 0px 1px 32px 3px rgba(204,204,204,0.3);
+            box-shadow: 0px 1px 32px 3px rgba(204,204,204,0.3);
+        }
+        h2{
+              border-bottom: 1px solid #e7e7e7;
+              padding: 10px 0px;
+            
+            span {
+                font-family:$primaryFont;
+                color: $primarybgColor;
+                font-weight: 600;
+                font-size: 40px;
+            }
+        }
+        p{
+            font-family:$secondaryFont;
+            font-size: 16px;
+            padding: 10px 20px 50px;
+            line-height: 23px;
+
+        }
+        a {
+            position: absolute;
+            left: 20%;
+            bottom: -10%;
+
+        }
+    }
+    .pc-2{
+        position: relative;
+        h2{
+
+            span{
+                color: $secondarybgColor;
+            }
+        }
+        
+        a{
+            background: $secondarybgColor;
+            border-color: $secondarybgColor;
+
+            &:hover{
+                background: #e4a51f;
+            }
+        }
+        
+    }
+    
+    .pc-3{
+        position: relative;
+        h2{
+
+            span{
+                color: $tertiaryColor;
+
+            }
+        }
+        a{
+            background: $tertiaryColor;
+            border-color: $tertiaryColor;
+
+            &:hover{
+                background: #e4a51f;
+            }
+        }
+        
+    }
+
+    .price-details{
+        position: relative;
+        padding-top: 50px;
+
+        ul{
+            li{
+                font-size: 16px;
+                letter-spacing: 0;
+                padding: 7px 0px;
+                i {
+                    color: $primarybgColor;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    .pd-2{
+        ul{
+            li{
+                i{
+                    color: $secondarybgColor;
+                }
+            }
+        }
+    }
+    .pd-3{
+        ul{
+            li{
+                i{
+                    color: $tertiaryColor;
+                }
+            }
+        }
+    }
+    
+}
+
+
+section.pricing-2 {
+    position: relative;
+    text-align: center;
+
+    &::before{
+        display: none;
+    }
+
+ .price-top {
+        position: relative;
+        h1{
+            margin-bottom: 30px;
+        }
+    }
+
+    nav{
+        p:first-child {
+            right: 57%;
+        }
+        p:last-child {
+            right: 38%;
+        }
+
+       .nav-tabs {
+            margin: auto;
+            margin-bottom: 50px;
+            height: 38px;
+        }
+    }
+
+    .price-catagory-full {
+        position: relative;
+        border: 1.5px solid #e1e1e1;
+        transition: .5s ease;
+
+        &:hover{
+            -webkit-box-shadow: 0px 1px 32px 3px rgba(204, 204, 204, 0.3);
+            -moz-box-shadow: 0px 1px 32px 3px rgba(204, 204, 204, 0.3);
+            box-shadow: 0px 1px 32px 3px rgba(204, 204, 204, 0.3);
+                }
+
+        .price-catagory{
+            border: none;
+            padding: 30px 20px 20px;
+            margin: 0;
+            border-bottom: 1.5px solid #e1e1e1;
+
+            &:hover{
+                box-shadow: none;
+            }
+            h2{
+                padding: 10px 0px 20px;
+            }
+            p{
+                padding: 20px 10px 10px;
+                font-size: 17px;
+            }
+    
+        }
+        .price-details {
+            position: relative;
+            padding: 50px 0px;
+
+            a.btn-2 {
+                margin-top: 30px;
+            }
+        }
+        .price-details.pd-2{
+            a.btn-2 {
+               background: #4e76a4;
+               border-color: #4e76a4;
+            }
+        }
+        .price-details.pd-3{
+            a.btn-2 {
+               background: #de5558;
+               border-color: #de5558;
+            }
+        }
+
+    }
+    
+}
+
+/*---------------End Pricing Style-----------------------------*/
+
+/*--------------------Payment Section---------------------------*/
+
+section.payment-page {
+    position: relative;
+    padding: 100px 0px;
+
+    h1{
+        border-bottom: 1.5px solid #e1e1e1;
+        padding-bottom: 10px;
+    }
+    h2 {
+        font-size: 36px;
+        padding-bottom: 15px;
+        position: relative;
+
+        &::before{
+            position: absolute;
+            content: '';
+            width: 79px;
+            height: 4px;
+            left: 0;
+            bottom: 0;
+            background: #4e76a4;
+                }
+    }
+    .billing-box {
+        position: relative;
+        padding-top: 20px;
+
+        .cp1 {
+            padding: 20px 10px;
+            margin-bottom: 15px;
+            font-size: 13px;
+            letter-spacing: 0;
+            font-family: 'Circular Std Book';
+        }
+
+        .cfdb1 label {
+            font-size: 16px;
+            color: #26252f;
+            letter-spacing: 0;
+            font-family: 'Circular Std Book';
+        }
+        .checkbox {
+            label {
+                letter-spacing: 0;
+            }
+           input {
+                height: 20px;
+                width: 20px;
+            }
+        }
+        button {
+            background: #ff8522;
+            border: none;
+            letter-spacing: 0;
+            font-size: 16px;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        button.port-btn{
+            background: #4e76a4;
+        }
+    }
+    .payment-method{
+        position: relative;
+        padding: 50px 40px;
+        border: 1.5px solid #ced4da;
+    
+        .billing-card{
+            position: relative;
+            padding: 34px 0px;
+            width: 86%;
+            margin: auto;
+            border-bottom: 1.5px solid #ced4da;
+           ul {
+            li {
+                display: inline-block;
+                width: 45px;
+                margin: 5px auto;
+                margin-right: 4px;
+            }
+           }
+        }
+
+        button {
+            background: #ff8522;
+            border: none;
+            letter-spacing: 0;
+            font-size: 16px;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            margin-left: 64%;
+        }
+
+    }
+
+
+    .single-profile{
+        position: relative;
+        width: 100%;
+        display: inline-flex;
+        padding-bottom: 50px;
+        border-bottom: 1.5px solid #e1e1e1;
+
+        .single-profile-img {
+            position: relative;
+            width: 39%;
+        }
+        .single-profile-text {
+            position: relative;
+            padding-top: 8%;
+            padding-left: 5%;
+
+            h1{
+                border: none;
+            }
+            a.btn-2{
+                background: #4e76a4;
+                border-color: #4e76a4;
+            }
+        }
+    }
+   
+}
+
+/*--------------------/Payment Section---------------------------*/

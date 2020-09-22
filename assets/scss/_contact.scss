@@ -1,146 +1,358 @@
-/*=======================Contact Style=========================*/
-
-.contact-area{
+/*=======================Contact page style=======================*/
+section.contact-us {
     position: relative;
-    margin-top: 150px;
-    
-    .contact-info {
-        position: relative;
-        margin-bottom: 150px;
-    
-       .single-info {
-            position: relative;
-            text-align: center;
-            padding: 30px 50px;
-            transition: .5s ease;
-            border-radius: 10px;
-            background-color: rgb(255, 255, 255);
-            box-shadow: -0.326px 0.946px 14.72px 1.28px rgba(232, 235, 234, 0.53);
 
-            &:hover{
-
-                    border-radius: 10px;
-                    background-color: rgb(255, 255, 255);
-                    box-shadow: 3.661px 41.84px 49.68px 4.32px rgba(241, 241, 241, 0.91);
-                }
-    
-            i {
-                font-size: 30px;
-                color: $secondaryColor;
-            }
-    
-            h5 {
-                line-height: 32px;
-                font-weight: 700;
-                font-size: 18px;
-                color: $h-tag-Color;
-            }
-        }
-
-        .sf-2{
-            position: relative;
-            background: unset;
-            text-align: left;
-            box-shadow: none;
-            margin-bottom: 40px;
-            padding: 0;
-
-            &:hover{
-                box-shadow: none;
-            }
-        }
-
-    }
     .contact-details {
         position: relative;
+        padding: 100px 0px;
 
         h2{
-            margin-bottom: 50px;
-        }
-
-        .cd-text {
+            font-size: 35px;
+            padding-bottom: 15px;
             position: relative;
-            padding-right: 40%;
-            margin-top: 150px;
 
-            p{
-                margin-top: 30px;
-            }
-
-        }
-
-        .cd-info{
-            position: relative;
-            border-radius: 5px;
-            background-color: white;
-            box-shadow: -0.326px 0.946px 14.72px 1.28px rgba(232, 235, 234, 0.53);
-            padding: 60px 40px;
-
-
-            form{
-
-                .form-group{
-                    width: 100%;
-
-                    .form-control {
-                        position: relative;
-                        padding: 25px 20px;
-                        font-size: 16px;
-                        font-family: "Poppins", sans-serif;
-                        margin: 5px 0px;
-                        background: #f9f9f9;
-                        border-color: #f9f9f9;
-
+            &::before{
+                position: absolute;
+                content: '';
+                width: 79px;
+                height: 4px;
+                left: 0;
+                bottom: 0;
+                background: #4e76a4;
+                        }
                     }
+                }
 
-                    .grecaptcha-badge {
-                        width: 83% !important;
+                .single-contact {
+                    position: relative;
+                    width: 100%;
+                    display: inline-flex;
+                    margin-top: 25px;
 
-                        iframe {
-                            width: 100%;
+                    .sc-icon {
+                        position: relative;
+                        width: 60px;
+                        height: 60px;
+                        border: 1px solid #e2e2e2;
+                        border-radius: 5px;
 
-                            .rc-anchor-normal {
-                                height: 74px;
-                                width: 100%;
-                            }
+                        span.cont-icon {
+                            font-size: 27px;
+                            display: block;
+                            padding: 14px 15px;
+                            color: #3b3f54;
+                        }
+                    }
+                    .sc-text {
+                        position: relative;
+                        padding-left: 20px;
+                    
+                        span{
+                            color: #3b3f54;
+                            display: block;
+                            padding: 15px 0px;
+                            font-size: 18px;
+                        }
+                    }
+                    .sc-text2{
+
+                        span{
+                            padding-right: 65px;
+                            padding-top: 0;
                         }
                     }
 
-                    button.btn-1{
-                        display: block;
-                        border: 0;
-                        width: 100%;
-                        margin-top: 5px;
-                        font-size: 17px;
-                        text-transform: uppercase;
+
+                }
+    
+}
+
+section.google-map{
+    position: relative;
+    margin-bottom: 100px;
+
+    .map {
+        position: relative;
+        width: 100%;
+        height: 500px;
+
+        div#googleMap {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+/*=======================Contact page style=======================*/
+
+
+/*=========================Sign Up Style==============================*/
+
+section.sign-up {
+    position: relative;
+    padding-bottom: 150px;
+    padding-top: 200px;
+    background: #f4f9ff;
+    z-index: 1;
+
+    .sign-up-content {
+        position: relative;
+        margin-top: 150px;
+
+        &::before{
+            position: absolute;
+            content: '';
+            height: 550px;
+            width: 550px;
+            border-radius: 50%;
+            background: #f5f4ee;
+            left: -15%;
+            top: -25%;
+            z-index: -1;
+        }
+
+        h1{
+            font-size: 60px;
+            line-height: 72px;
+        }
+
+        p{
+
+         font-family: 'Circular Std';
+         font-weight: 500;
+         font-size: 28px;
+         line-height: 38px;
+         margin-top: 30px;
+        }
+    }
+
+    section.signup-details {
+        position: relative;
+
+         
+        button.cont-sent {
+            display: block;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            padding: 7px;
+            cursor: pointer;
+            color: #fff;
+            background: #4e76a4;
+        }
+        button.login-sent {
+            display: block;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            padding: 7px;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            border: 1.5px solid #e1e1e1;
+            background: #ffffff;
+
+
+            img {
+                max-width: 5%;
+            }
+        }
+        h3{
+            a {
+                color: #4e76a4;
+                font-size: 24px;
+            }
+        }
+
+        .form-group {
+            margin-bottom: 0;
+            margin-top: 25px;
+            p{
+                font-size: 14px;
+                line-height: 22px;
+                a{
+                    color: #4e76a4;
+                    font-size: 14px;
+                    text-decoration: underline;
+                }
+            }
+            .form-check-label {
+                letter-spacing: 0;
+            }
+            .form-control{
+                padding: 20px;
+                border-radius: 5px;
+                font-size: 14px;
+            }
+           
+        }
+
+    }
+
+    .signup-d2 {
+        padding-top: 100px;
+    }
+}
+/*=========================Sign Up Style==============================*/
+
+/*=========================Terms & condition=========================*/
+
+section.terms_condition {
+    position: relative;
+    padding: 120px 0px;
+
+    nav{
+        position: relative;
+
+        .nav-tabs {
+            border: 1.5px solid #4e76a4;
+
+            .nav-link {
+                border: 1px solid #4e76a4;
+                border-radius: 0;
+
+                &:hover{
+                    background-color: #4e76a4;
+                    color: #fdfeff;
+                }
+            }
+            .nav-link.active {
+                color: #fdfeff;
+                background-color: #4e76a4;
+                border-color: #4e76a4;
+            }
+        }
+    }
+
+    .tab-content{
+        .active{
+            h3{
+                padding-top: 50px;
+            }
+            p{
+                padding-top: 20px;
+                font-family: unset;
+                color: #606366;
+            }
+        }
+    }
+}
+
+
+
+/*=========================/Terms & condition=========================*/
+
+
+
+/*=============================Comingsoon style============================*/
+
+
+section.comingsoon {
+    position: relative;
+    text-align: center;
+    padding: 253px 0px;
+    background: #064a98cf;
+
+
+    &::before{
+        position: absolute;
+        content: '';
+        background-image: url(../img/Coming-Soon.gif);
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1 {
+        color: #fff;
+        font-size: 72px;
+    }
+    p {
+        font-size: 19px;
+        line-height: 28px;
+        margin: auto;
+        padding: 25px 0px;
+        max-width: 767px;
+        color: #fff;
+    }
+
+    #clockdiv {
+        display: inline-flex;
+
+        
+    .time {
+        display: inline-block;
+        border: 3px solid #fff;
+        border-radius: 15px;
+        width: 110px;
+        height: 120px;
+        padding: 24px 20px;
+
+        span {
+            font-size: 60px;
+            color: #fff;
+        }
+        .smalltext {
+            font-size: 30px;
+            color: #fff;
+        }
+    }
+    
+    .dot {
+        font-size: 80px;
+        color: #fff;
+        padding: 42px 10px;
+    }
+    }
+
+    .f-details {
+        position: relative;
+        padding-top: 50px;
+
+        h3 {
+            color: #fff;
+            font-size: 30px;
+            padding-bottom: 23px;
+        }
+        ul.social {
+            position: relative;
+            display: inline-flex;
+
+            li{
+                display: inline-block;
+                width: 50px;
+                transition: .5s ease;
+                height: 50px;
+                border: 1.5px solid #f5f7f9;
+                margin: 0px 10px;
+                background: #fff;
+                border-radius: 5px;
+
+                &:hover{
+                    background: #ffc854;
+                    border-color: #ffc854;
+
+                    a{
+                        color: #fff;
                     }
-                    
+                }
+                a{
+                    font-size: 16px;
+                     color: #4e76a4;
+
+                     i{
+                        font-size: 20px;
+                        padding: 14px;
+                        border-radius: 5px;
+                     }
                 }
             }
         }
     }
+
+
 }
 
-.g-map {
-    position: relative;
-    margin-top: 150px;
-
- .map {
-        position: relative;
-        width: 100%;
-        height: 500px;
-        margin-top: 10px;
-
-       div#googleMap {
-            height: 100%;
-            width: 100%;
-
-            img{
-                max-width: unset;
-                width: auto;
-            }
-        }
-    }
-}
-
-/*=======================Contact Style=========================*/
+/*=============================/Comingsoon style============================*/

@@ -1,25 +1,266 @@
-/*=================== Header Style 1 Start ====================*/
+header.header-area{
+  z-index: 999;
+}
+header.header-area.nav-fixed {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  animation-duration: 0.8s;
+  animation-name: fadeInDown;
+  animation-timing-function: ease-in-out;
+  box-shadow: 0 4px 12px -4px rgba(23, 162, 184, .5);
+  background-image: none;
+  background: #0EA0E6;
 
-header.header-area {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    padding: 25px 0px;
-    z-index: 9;
-
-    .logo-wrapper {
-        position: relative;
-
-        img{
-            max-width: unset;
-            width: auto;
+  .main-menu-btn-icon, .main-menu-btn-icon:before, .main-menu-btn-icon:after{
+    background: #fff;
+  }
+}
+header.header-area.h-style7.nav-fixed{
+  .nh3-topber{
+    .ht3-list{
+      li{
+        a{
+          color: #fff;
         }
+      }
     }
+  }
+  .nh3-navber{
+    .nh3-nav-btn{
+      .btn-1{
+        color: #fff;
 
-    .menu-wrapper {
+      }
+    }
+  }
+}
+.h-style1 {
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px 0px;
+
+
+  a.btn-1 {
+    position: relative;
+    top: 12px;
+}
+
+
+}
+
+.h-style2{
+  
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+    padding: 30px 0px;
+
+  ul{
+
+    li{
+      
+  p {
+    line-height: 0px;
+    padding: 0px 20px;
+    color: rgb(255, 255, 255); 
+    font-family: 'Circular Std';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+      &:nth-child(7){
+          position: relative;
+          left: 75px;
+          top: 7px;
+        a{
+          color: #fff;
+        }
+
+      } 
+      &:nth-child(8){
         position: relative;
-        margin-top: 10px;
+        left: 90px;
+        top: 7px;
+        a{
+          color: #fff;
+        }
+
+      }   
+    }
+  }
+
+  a.btn-1 {
+    background-color: #ffc854;
+    color: #fff;
+
+    &:hover{
+      background: #56c2e2;
     }
 }
-/*==================== Header Style 1 ==========================*/
+
+}
+
+.h-style3{
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background: #74a8f700;
+  padding: 0;
+
+  .nh3-topber{
+
+    ul.ht3-list{
+      border-left: 1px solid #496a8f;
+      border-right: 1px solid #496a8f;
+      li{
+        display: inline-block;
+        a{
+          color: #fff;
+          font-size: 13px;
+          padding: 13px 20px;
+          display: block;
+        }
+      }
+    }
+    .ht3-list2{
+      float: right;
+    }
+  }
+
+  .nh3-navber{
+    position: relative;
+    border: 1px solid #496a8f;
+    border-left: 0;
+    border-right: 0;
+    nav{
+      .nav-brand{
+        border-left: 1px solid #496a8f;
+        border-right: 1px solid #496a8f;
+      }
+    }
+    ul.sm-mint{
+      >li{
+        >a{
+          color: #fff;
+        }
+        .sub-arrow{
+          border-color: #ffffff transparent transparent transparent;
+        }
+      }
+    }
+    .nh3-nav-btn {
+      position: relative;
+      border-left: 1px solid #496a8f;
+      border-right: 1px solid #496a8f;
+
+      a.btn-1{
+        background: transparent;
+        top: 0;
+        padding: 12px 30px;
+        display: block;
+        border-radius: 0;
+
+        &:hover{
+          background: #56c2e2;
+        }
+  }
+    
+
+    }
+  }
+}
+
+
+.h-style4{
+  
+  z-index: 9;
+  .nh3-navber{
+    border-bottom: 1px solid #fcfcfc;
+  
+  nav{
+    .nav-brand {
+      border-left: 1px solid #ffffff;
+      border-right: 1px solid #ffffff;
+  }
+    
+  }
+  .nh3-nav-btn {
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+  }
+  
+  }
+  
+  .nh3-topber {
+    border-bottom: 1px solid #fdfdfd;
+  
+    ul.ht3-list{
+      border-left: 1px solid #ffffff;
+      border-right: 1px solid #ffffff;
+    }
+  
+  }   
+
+  }
+
+  .h-style7{
+    
+    z-index: 2;
+
+    .nh3-topber{
+      border-color: #e2e2e2;
+      ul.ht3-list{
+        border-color: #e2e2e2;
+        li{
+          a{
+            color: #060606;
+          }
+        }
+      }
+    }
+    .nh3-navber{
+      border-color: #e2e2e2;
+
+     nav{
+      .nav-brand {
+        border-color: #e2e2e2;
+      }
+      
+  
+        ul.sm-mint{
+          >li{
+            >a{
+              color: #000;
+            }
+            .sub-arrow {
+              border-color: #000000 transparent transparent transparent;
+          }
+  
+          }
+  
+        }
+     }
+      .nh3-nav-btn{
+        border-color: #e2e2e2;
+        a.btn-1{
+          background: #b5c2c500;
+          color: #000000;
+          
+        }
+      }
+
+
+    }
+
+    
+  }
+

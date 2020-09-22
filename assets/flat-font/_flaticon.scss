@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 18/07/2020 09:51
+    Creation date: 17/12/2019 10:23
     */
 
     @font-face {
@@ -37,56 +37,82 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-twitter:before { content: "\f100"; }
-.flaticon-facebook:before { content: "\f101"; }
-.flaticon-instagram:before { content: "\f102"; }
-.flaticon-linkedin:before { content: "\f103"; }
-.flaticon-scissors:before { content: "\f104"; }
-.flaticon-shaving-razor:before { content: "\f105"; }
-.flaticon-scissors-1:before { content: "\f106"; }
-.flaticon-nail-scissors:before { content: "\f107"; }
-.flaticon-patient:before { content: "\f108"; }
-.flaticon-dryer:before { content: "\f109"; }
-.flaticon-play-button:before { content: "\f10a"; }
-.flaticon-right:before { content: "\f10b"; }
-.flaticon-left:before { content: "\f10c"; }
-.flaticon-right-1:before { content: "\f10d"; }
-.flaticon-play:before { content: "\f10e"; }
-.flaticon-phone:before { content: "\f10f"; }
-.flaticon-disinfectant:before { content: "\f110"; }
-.flaticon-people:before { content: "\f111"; }
-.flaticon-clean:before { content: "\f112"; }
-.flaticon-placeholder:before { content: "\f113"; }
-.flaticon-telephone:before { content: "\f114"; }
-.flaticon-email:before { content: "\f115"; }
-.flaticon-headset:before { content: "\f116"; }
-.flaticon-loupe:before { content: "\f117"; }
-.flaticon-right-arrow:before { content: "\f118"; }
-.flaticon-quote:before { content: "\f119"; }
+    .flaticon-digital-marketing:before { content: "\f100"; }
+.flaticon-digital-campaign:before { content: "\f101"; }
+.flaticon-targeting:before { content: "\f102"; }
+.flaticon-analytics:before { content: "\f103"; }
+.flaticon-analytics-1:before { content: "\f104"; }
+.flaticon-arrow-pointing-to-right:before { content: "\f105"; }
+.flaticon-left-arrow:before { content: "\f106"; }
+.flaticon-hand:before { content: "\f107"; }
+.flaticon-growth:before { content: "\f108"; }
+.flaticon-growth-1:before { content: "\f109"; }
+.flaticon-money:before { content: "\f10a"; }
+.flaticon-gear:before { content: "\f10b"; }
+.flaticon-profits:before { content: "\f10c"; }
+.flaticon-double-quotes:before { content: "\f10d"; }
+.flaticon-quote:before { content: "\f10e"; }
+.flaticon-research:before { content: "\f10f"; }
+.flaticon-professions:before { content: "\f110"; }
+.flaticon-analytics-2:before { content: "\f111"; }
+.flaticon-multimedia:before { content: "\f112"; }
+.flaticon-calendar:before { content: "\f113"; }
+.flaticon-comment:before { content: "\f114"; }
+.flaticon-grid:before { content: "\f115"; }
+.flaticon-notification:before { content: "\f116"; }
+.flaticon-watch:before { content: "\f117"; }
+.flaticon-sketch:before { content: "\f118"; }
+.flaticon-layers:before { content: "\f119"; }
+.flaticon-computer-graphic:before { content: "\f11a"; }
+.flaticon-refresh-button:before { content: "\f11b"; }
+.flaticon-team:before { content: "\f11c"; }
+.flaticon-customer-service:before { content: "\f11d"; }
+.flaticon-team-1:before { content: "\f11e"; }
+.flaticon-creativity:before { content: "\f11f"; }
+.flaticon-right-chevron:before { content: "\f120"; }
+.flaticon-right-thin-chevron:before { content: "\f121"; }
+.flaticon-telephone:before { content: "\f122"; }
+.flaticon-black-back-closed-envelope-shape:before { content: "\f123"; }
+.flaticon-pin:before { content: "\f124"; }
+.flaticon-back-angle-arrow-in-square-interface-button:before { content: "\f125"; }
+.flaticon-right-arrow-angle-in-filled-square-button:before { content: "\f126"; }
     
-    $font-Flaticon-twitter: "\f100";
-    $font-Flaticon-facebook: "\f101";
-    $font-Flaticon-instagram: "\f102";
-    $font-Flaticon-linkedin: "\f103";
-    $font-Flaticon-scissors: "\f104";
-    $font-Flaticon-shaving-razor: "\f105";
-    $font-Flaticon-scissors-1: "\f106";
-    $font-Flaticon-nail-scissors: "\f107";
-    $font-Flaticon-patient: "\f108";
-    $font-Flaticon-dryer: "\f109";
-    $font-Flaticon-play-button: "\f10a";
-    $font-Flaticon-right: "\f10b";
-    $font-Flaticon-left: "\f10c";
-    $font-Flaticon-right-1: "\f10d";
-    $font-Flaticon-play: "\f10e";
-    $font-Flaticon-phone: "\f10f";
-    $font-Flaticon-disinfectant: "\f110";
-    $font-Flaticon-people: "\f111";
-    $font-Flaticon-clean: "\f112";
-    $font-Flaticon-placeholder: "\f113";
-    $font-Flaticon-telephone: "\f114";
-    $font-Flaticon-email: "\f115";
-    $font-Flaticon-headset: "\f116";
-    $font-Flaticon-loupe: "\f117";
-    $font-Flaticon-right-arrow: "\f118";
-    $font-Flaticon-quote: "\f119";
+    $font-Flaticon-digital-marketing: "\f100";
+    $font-Flaticon-digital-campaign: "\f101";
+    $font-Flaticon-targeting: "\f102";
+    $font-Flaticon-analytics: "\f103";
+    $font-Flaticon-analytics-1: "\f104";
+    $font-Flaticon-arrow-pointing-to-right: "\f105";
+    $font-Flaticon-left-arrow: "\f106";
+    $font-Flaticon-hand: "\f107";
+    $font-Flaticon-growth: "\f108";
+    $font-Flaticon-growth-1: "\f109";
+    $font-Flaticon-money: "\f10a";
+    $font-Flaticon-gear: "\f10b";
+    $font-Flaticon-profits: "\f10c";
+    $font-Flaticon-double-quotes: "\f10d";
+    $font-Flaticon-quote: "\f10e";
+    $font-Flaticon-research: "\f10f";
+    $font-Flaticon-professions: "\f110";
+    $font-Flaticon-analytics-2: "\f111";
+    $font-Flaticon-multimedia: "\f112";
+    $font-Flaticon-calendar: "\f113";
+    $font-Flaticon-comment: "\f114";
+    $font-Flaticon-grid: "\f115";
+    $font-Flaticon-notification: "\f116";
+    $font-Flaticon-watch: "\f117";
+    $font-Flaticon-sketch: "\f118";
+    $font-Flaticon-layers: "\f119";
+    $font-Flaticon-computer-graphic: "\f11a";
+    $font-Flaticon-refresh-button: "\f11b";
+    $font-Flaticon-team: "\f11c";
+    $font-Flaticon-customer-service: "\f11d";
+    $font-Flaticon-team-1: "\f11e";
+    $font-Flaticon-creativity: "\f11f";
+    $font-Flaticon-right-chevron: "\f120";
+    $font-Flaticon-right-thin-chevron: "\f121";
+    $font-Flaticon-telephone: "\f122";
+    $font-Flaticon-black-back-closed-envelope-shape: "\f123";
+    $font-Flaticon-pin: "\f124";
+    $font-Flaticon-back-angle-arrow-in-square-interface-button: "\f125";
+    $font-Flaticon-right-arrow-angle-in-filled-square-button: "\f126";

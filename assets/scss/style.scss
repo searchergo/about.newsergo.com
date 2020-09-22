@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Barber
+    Template Name: Niksta
     Template URI: 
     Description: This is html5 template
     Author: Voidcoders
@@ -19,12 +19,14 @@
     6  Service Style
     7  Testimonial Style
     8  Blog Style
-    9  Gallery Style
-    10  Error Style
-    11  Contact Style
-    12  Footer Style
-    13  RTL
-    14  Responsive Style
+    9  Team Style
+    10  Instacarousel Style
+    11  Gallery Style
+    12  Pricing Style
+    13  Error Style
+    14  Contact Style
+    15  Footer Style
+    16  Responsive Style
     
     
 -----------------------------------------------------------------------------------*/
@@ -36,18 +38,20 @@
 @import "header.scss";
 @import "hero.scss";
 @import "about.scss";
+@import "features.scss";
+@import "portfolio.scss";
+@import "pricing.scss";
 @import "testimonial.scss";
 @import "blog.scss";
-@import "portfolio.scss";
 @import "service.scss";
 @import "error.scss";
 @import "contact.scss";
 @import "footer.scss";
 @import "keyframes.scss";
 @import "rtl.scss";
+@import "responsive.scss";
 
 // Import Responsive
-@import "responsive.scss";
 
 
 
@@ -60,4 +64,16 @@
 
 /* Your Custom Typography. */
 
+// about.scss
+// blog.scss
+// footer.scss
+// gallery.scss
+// header.scss
+// hero.scss
+// instacarousel.scss
+// portfolio.scss
+// pricing.scss
+// service.scss
+// team.scss
+// testimonial.scss
 

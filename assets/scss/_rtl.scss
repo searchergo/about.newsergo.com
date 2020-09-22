@@ -4,147 +4,444 @@
 
 html[dir="rtl"] {
 
-    header.header-area .logo-wrapper {
+    header.header-area {
+        z-index: 999;
+        direction: ltr;
+    }
 
-        position: relative;
+    section.hero-1 .hero-content {
+        text-align: right;
+    }
+    section.about-us .about-content {
+  
+        text-align: right;
+    }
+    section.about-us .about-1 {
+
+        left: 22%;
+        right: unset;
+    }
+    section.features .single-features {
+
+        text-align: right;
+
+    }
+    section.portfolio-slide{
+
+        direction: ltr;
+
+    }
+
+    section.pricing nav .nav-tabs {
+
+        margin-left: 60px;
+        margin-right: auto;
+
+    }
+    section.pricing nav p:first-child {
+
+        right: unset;
+        top: 12%;
+        left: 20%;
+
+    }
+    section.pricing nav p:last-child {
+
+        right: unset; 
+        left: 0;
+
+    }
+    section.pricing .price-details {
+
+        text-align: right;
+    }
+    section.pricing .price-details ul li i {
+
+        padding-right: 0;
+        padding-left: 10px;
+
+    }
+
+    section.recent-blog {
+        direction: ltr;
+    }
+    section.client-feedback .single-feedback .sf-content {
+ 
+        text-align: right;
+    }
+    section.client-feedback .single-feedback .sf-client {
+     
+        text-align: right;
+
+    }
+    section.client-feedback .single-feedback .sf-client .text {
+        text-align: right;
+    }
+    section.recent-blog .blog-slide-1 .r-blog .rb-text {
+      
+        text-align: right;
+
+    }
+    section.footer-details {
+        text-align: right;
+    }
+    section.hero-1 .hero-content .hero-btn a.btn-3 {
+        margin-right: 20px;
+    }
+
+    section.service .single-service {
         text-align: right;
     }
 
-    .about .about-content {
+    section.service .single-service .ss-content h3 {
+        padding-right: 0;
+    }
+    section.service .single-service .ss-icon {
 
-        padding-left: 40px;
+        margin-left: auto;
+
+    }
+    section.about-us-2 .about-content {
+
+        text-align: right;
+    }
+    section.about-us-3 .about-content h1 {
+        padding-right: 0;
+    }
+    section.hero-3 {
+        direction: ltr;
+    }
+
+    .h-style3 .nh3-topber ul.ht3-list li a {
+
+        padding: 13px 12px;
+    }
+    section.about-us-5 .about-content {
+      
+        text-align: right;
+    }
+    section.mini-services .service-content {
+
+        text-align: right;
+    }
+    section.about-us-6 .about-content {
+    
+        text-align: right;
+    }
+    section.recent-Work-2 {
+        direction: ltr;
+    }
+    section.blog .single-blog2 .sb-text {
+        text-align: right;
+    }
+
+    section.blog .single-blog .sb-text {
+        text-align: right;
+    }
+    section.fun-fact::before {
+        right: 0;
+    }
+    section.hero-4 {
+        direction: ltr;
+    }
+    section.about-us-7 .about-content {
+        width: 100%;
+        left: 0;
+        text-align: right;
+    }
+    section.work-process .tab-content .work-content {
+        top: 25%;
+        left: -18%;
+        right: unset;
+        text-align: right;
+    }
+    section.work-process .tab-content {
+        margin-right: 15%;
+        width: 100%;
+    }
+
+    section.work-process .nav-tabs .nav-link {
+   
+        text-align: right;
+    }
+    section.work-process .nav-tabs .nav-link p {
+    
+        padding-right: 0;
+    }
+    section.about-us-8 .about-img {
+
+        left: 0;
+        right: 10%;
+    }
+
+    section.recent-blog2 .rb2-text {
+      
+        text-align: right;
+    }
+    section.hero-5 .hero-img {
+        margin-right: 0;
+    }
+    section.hero-5 .hero-content {
+       
+        text-align: right;
+    }
+    section.about-us-9 .about-content {
+    
+        margin-left: 0;
+        margin-right: 10%;
+        text-align: right;
+    }
+    section.features-2 .features-img {
+        margin-right: -250px;
+        margin-left: unset;
+    }
+    section.features-2 .s-f-padding .single-features-2 {
+    
+        text-align: right;
+    }
+    section.screenshot {
+        direction: ltr;
+    }
+
+    section.hero-5::before {
+        position: absolute;
+        left: 0;
+    }
+    section.hero-6 .hero-6-content .hero-btn a.btn-3 {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    section.about-us-9.dark .about-1 {
+        margin-left: unset;
+        margin-right: -150px;
+        width: calc(100% + 150px);
+    }
+    section.about-us-10.dark .about-1 {
+        position: relative;
+        margin-right: 0;
+        margin-left: -150px !important;
+        width: calc(100% + 100px);
+    }
+    section.hero-7 .hero-content {
+  
+        text-align: right;
+    }
+    section.about-us-11 .about-content {
+        text-align: right;
+    }
+    section.about-us-11 .about-content p {
+       
+        padding-right: 0;
+    }
+    section.about-us-11 .about-content a.btn-3 {
+        margin-left: 0;
+        margin-right: 20px;
+        max-width: 150px;
+        color: #000000;
+    }
+    section.mobile-ui .mobile-ui-bg {
+       
+        height: 61%;
+        top: 29%;
+        left: 0;
+    }
+    section.mobile-screen-slide {
+
+        direction: ltr;
+    }
+    .e-solution-details {
+        padding-right: 0;
+        text-align: right;
+    }
+    section.team {
+        position: relative;
+        direction: ltr;
+    }
+    section.information .information-text {
+        text-align: right;
+    }
+    section.our-specialties .specialties-img {
+
+        margin-left: 0;
+        margin-right: -200px;
+    }
+    section.our-specialties .our-specialties-details {
+        position: relative;        text-align: right;
+    }
+    .s-sp-text {
+        text-align: right;
+    }
+    section.Our-Approach .about-content{
+        margin-right: 0;
+    }
+    section.about-niksta-1 .about-niksta-1-img {
+        
+        margin-right: -50px;
+        margin-left: 0;
+    }
+    section.about-niksta-1 .about-niksta-1-text {
+        text-align: right;
+    }
+    section.about-niksta-1 .an-image2 {
+
+        margin-left: -50px;
+        margin-right: 0;
+        width: calc(100% + 50px);
+    }
+    section.about-team .about-1 {
+        position: relative;
+        right: 0;
+    }
+    section.about-team .about-content {
+        position: relative;
+        padding-top: 100px;
+        text-align: right;
+    }
+    section.blog-page .single-bloge-post {
+        text-align: right;
+    }
+
+    section.blog-page .blog-sidebar .search-box .form-group span.fa.fa-search {
+        left: 0;
+    }
+    section.blog-page .blog-sidebar .reletad-post {
+        direction: ltr;
+    }
+    section.blog-page .blog-sidebar .blog-catagory {
+        text-align: right;
+    }
+    section.blog-page .sbp-details {
+
+        text-align: right;
+    }
+    section.blog-page section.comment {
+     
+        text-align: right;
+    }
+    section.blog-page section.comment-box {
+   
+        text-align: right;
+    }
+    section.service-details-page .service-dp-img {
+   
+        margin-left: 0;
+        margin-right: -205px;
+    }
+    section.service-details-page .service-dp-text {
+     
+        padding-right: 0;
+        text-align: right;
+    }
+
+    section.service-details-page .service-dp-text p {
+        padding: 25px 0px;
+        padding-right: 0;
+    }
+    section.service-details-page .service-dp-img2 {
+        position: relative;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section.pricing-2 .price-catagory-full .price-details {
+        position: relative;
+        padding: 50px 20px;
+    }
+
+    section.career .career-tag .search-box .form-group span.fa.fa-search {
+        left: 0;
+    }
+    section.career .job-details .j-d-text {
+        text-align: right;
+    }
+    section.career .job-details h5 {
+    
+        text-align: right;
+    }
+    section.career .company-location {
+     
+        margin: 25px 0px;
+    }
+    section.career-details .need-niksta {
+   
+        text-align: right;
+    }
+
+    section.career-details .career-d-resposibilities ul li::before {
+     
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    section.case-studies .single-case-studies {
         
         text-align: right;
     }
 
-    .about .about-content h2 {
-
-        padding-right: 0;
-        text-align: right;
-    }
-
-    .service .single-service {
-        text-align: right;
-    }
-    .testimonial {
-        direction: ltr;
-    }
-    .blog .single-blog .sb-text {
-        text-align: right;
-    }
-
-    .footer-area .footer-details .fd-info {
-        text-align: right;
-    }
-
-    .footer-area .footer-details .fd-info p {
-   
-        padding-right: 0;
-    }
-    
-    .footer-area .footer-details .f-link .f-social {
-
-        text-align: right;
-    }
-
-    .footer-area .footer-details .f-link h4 {
-      
-        text-align: right;
-    }
-
-    .footer-area .footer-details .f-gallery h4 {
+    section.case-sd-content .csc-text {
      
         text-align: right;
     }
 
-    .blog .single-blog .sb-text span:nth-child(2) {
-        float: left;
-    }
-    .modal .modal-content .booked {
-      
-        text-align: right;
-    }
-    .hero-2 .hero-content {
-        position: relative;
+    section.case-studies-details .csd-text {
         text-align: right;
     }
 
-    .about2 .about-content {
-        position: relative;
-        text-align: right;
-    }
-    .about2 .about-content .s-safety .ss-text {
-  
-        margin-left: 0;
-        margin-right: 20px;
-    }
-
-    .service-2 .service-list h2 {
-  
-        text-align: right;
-    }
-    .service-2 .service-list ul {
-        text-align: right;
-    }
-    .appointment .booked {
-        text-align: right;
-    }
-    .appointment .booked form button.btn-1 {
- 
-        margin-left: 0;
-        margin-right: 15px;
-    }
-    .modal .modal-content .booked form button.btn-1 {
-      
-        margin-left: 0;
-        margin-right: 15px;
-    }
-
-    .appointment .appoint-text {
-   
-        text-align: right;
-    }
-    .about .about-content p.ab-p {
- 
+    section.payment-page .billing-box {
         text-align: right;
     }
 
-    .contact-area .contact-details {
-        text-align: right;
-    }
-    .contact-area .contact-info .sf-2 {
-     
-        text-align: right;
-    }
-
-    .faq-area .card .card-block {
-        text-align: right;
-    }
-    .blog .side-bar {
+    section.payment-page .single-profile .single-profile-text {
+        padding-right: 5%;
         padding-left: 0;
+    }
+    section.user-guide .card .card-block {
         text-align: right;
-        padding-right: 10%;
     }
-    .blog .side-bar .recent-post .single-recent-blog .srb-text {
+    section.sign-up .sign-up-content {
+        text-align: right;
+    }
+    section.sign-up section.signup-details {
+       
+        text-align: right;
+    }
+    section.about-us-hero.support-hero .search-box .form-group span.fa.fa-search {
 
-        padding-left: 0;
-        padding-right: 15px;
+        right: unset;
+        left: 20px;
     }
-    .blog .side-bar .catagory ul.c-list li a span {
+    section.terms_condition {
+        text-align: right;
+    }
 
-        padding-left: 0;
-        padding-right: 5px;
+    section.portfolio-details .portfolio-d-text {
+        text-align: right;
     }
+    section.portfolio-details .portfolio-project .previous-project .prev-pro-icon {
     
-    .blog .bg-3 .comment-details {
-  
-        text-align: right;
+        margin-left: 14px;
     }
-    .blog .bg-3 .comment-details .hire-info .form-check .form-check-label {
-      
-        padding-left: 0;
+
+
+    section.portfolio-details .portfolio-project .next-project .next-pro-icon .next-icon {
+       
         margin-right: 15px;
     }
+
+    section.about-us-12 {
+        position: relative;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 }
 /*----------------------------------------*/
@@ -168,16 +465,8 @@ html[dir="rtl"] {
 
     @media only screen and  (max-width: 991px){
      
-
-        .hero-area .hero-content p {
-            width: 30%;
-        }
-        .hero-2 .hero-content .for-appointment .cell-number p {
-        
-            width: 100%;
-        }
-        .hero-3 .hero-content p {
-            width: 100% !important;
+        .h-style3 .nh3-topber ul.ht3-list li a {
+            padding: 13px 6px;
         }
     }
 
@@ -185,12 +474,80 @@ html[dir="rtl"] {
 
     @media only screen and (max-width: 767px) {
 
-        .main-menu-btn {
-            float: left;
+      section.about-us .about-1 {
+            left: 0;
         }
-        .blog .side-bar {
+        section.about-us-7 .about-img {
+           
+            width: 100%;
+            left: 0;
+        }
+     section.work-process .tab-content {
+            margin-right: 0;
+            width: 100%;
+        }
+section.work-process .nav-tabs .nav-link {
+            text-align: right;
+            width: 100%;
+        }
+       section.about-us-8 .about-img {
+            left: 0;
+            right: 0;
+        }
+
+        section.features-2 .features-img {
+            margin-right: 0;
+            margin-left: unset;
+        }
+
+        section.about-us-9.dark .about-1 {
+            margin-left: unset;
+            margin-right: 0;
+            width: 100%;
+        }
+        section.about-us-10.dark .about-1 {
+            position: relative;
+            margin-right: 0;
+            margin-left: 0;
+            width: 100%;
+        }
+        section.about-us-9 .about-content {
+            margin-left: 0;
+            margin-right: 0;
+            text-align: right;
+        }
+        section.about-us-10.dark .about-content {
+            position: relative;
+            margin: 0;
             padding-right: 0;
         }
+
+        section.hero-7 .hero-content p {
+         
+            line-height: 35px;
+        }
+
+        section.about-niksta-1 .about-niksta-1-img {
+            margin-right: 0;
+            margin-left: 0;
+        }
+        section.about-niksta-1 .an-image2 {
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+        }
+        section.service-details-page .service-dp-img {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+
+        .h-style1 a.btn-1 {
+            top: 12px;
+        }
+
+
+
 
     }
 
