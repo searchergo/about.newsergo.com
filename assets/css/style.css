@@ -185,7 +185,7 @@ Table Of Contents
 --------------------------
 */
 body {
-  font-family: "Circular Std"; }
+  font-family: "Roboto"; }
 
 h1,
 h2,
@@ -194,7 +194,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: "Circular Std";
+  font-family: "Roboto";
   font-weight: 500;
   color: #2a2a33;
   letter-spacing: 0px; }
@@ -206,7 +206,7 @@ h4 a,
 h5 a,
 h6 a {
   font-weight: inherit;
-  font-family: "Circular Std";
+  font-family: "Roboto";
   letter-spacing: 0; }
 
 h1 {
@@ -238,7 +238,7 @@ h6 {
   line-height: 24px; }
 
 p {
-  font-family: "Circular Std Book";
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 0;
@@ -250,7 +250,7 @@ p img {
   margin: 0; }
 
 span {
-  font-family: "Circular Std"; }
+  font-family: "Roboto"; }
 
 /* em and strong */
 em {
@@ -268,7 +268,7 @@ small {
 a,
 a:visited {
   text-decoration: none;
-  font-family: "Circular Std";
+  font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
   letter-spacing: 0;
@@ -345,7 +345,7 @@ li {
 a.btn-1 {
   background-color: #4e76a4;
   color: #fff;
-  font-family: "Circular Std";
+  font-family: "Roboto";
   font-size: 16px;
   padding: 18px 30px;
   font-weight: 500;
@@ -562,7 +562,7 @@ header.header-area.h-style7.nav-fixed .nh3-navber .nh3-nav-btn .btn-1 {
     line-height: 0px;
     padding: 0px 20px;
     color: white;
-    font-family: 'Circular Std';
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500; }
   .h-style2 ul li:nth-child(7) {
@@ -1310,7 +1310,7 @@ section.about-us {
       color: #4e76a4;
       text-decoration: underline; }
     section.about-us .about-content p {
-      font-family: "Circular Std Book";
+      font-family: "Roboto";
       font-size: 17px;
       color: #2a2a33;
       padding-bottom: 15px;
@@ -1396,7 +1396,7 @@ section.about-team {
       color: #4e76a4;
       text-decoration: underline; }
     section.about-team .about-content p {
-      font-family: "Circular Std Book";
+      font-family: "Roboto";
       font-size: 17px;
       color: #2a2a33;
       padding-bottom: 15px;
@@ -2052,7 +2052,7 @@ section.features {
         padding: 15px 0px;
         letter-spacing: 0; }
       section.features .single-features .sf-content p {
-        font-family: "Circular Std Book";
+        font-family: "Roboto";
         font-size: 16px;
         line-height: 24px;
         padding-bottom: 20px; }
@@ -2561,7 +2561,7 @@ section.portfolio {
       position: relative;
       color: #313039;
       font-size: 16px;
-      font-family: 'Circular Std Book';
+      font-family: 'Roboto';
       letter-spacing: 0px;
       line-height: 17px;
       padding: 8px 20px;
@@ -2737,12 +2737,12 @@ section.pricing {
       border-bottom: 1px solid #e7e7e7;
       padding: 10px 0px; }
       section.pricing .price-catagory h2 span {
-        font-family: "Circular Std";
+        font-family: "Roboto";
         color: #ffc854;
         font-weight: 600;
         font-size: 40px; }
     section.pricing .price-catagory p {
-      font-family: "Circular Std Book";
+      font-family: "Roboto";
       font-size: 16px;
       padding: 10px 20px 50px;
       line-height: 23px; }
@@ -2860,12 +2860,12 @@ section.payment-page {
       margin-bottom: 15px;
       font-size: 13px;
       letter-spacing: 0;
-      font-family: 'Circular Std Book'; }
+      font-family: 'Roboto'; }
     section.payment-page .billing-box .cfdb1 label {
       font-size: 16px;
       color: #26252f;
       letter-spacing: 0;
-      font-family: 'Circular Std Book'; }
+      font-family: 'Roboto'; }
     section.payment-page .billing-box .checkbox label {
       letter-spacing: 0; }
     section.payment-page .billing-box .checkbox input {
@@ -4084,7 +4084,7 @@ section.service {
         color: #3b3f54;
         padding-right: 86px; }
       section.service .single-service .ss-content p {
-        font-family: "Circular Std Book";
+        font-family: "Roboto";
         font-size: 16px;
         line-height: 24px;
         padding-bottom: 20px; }
@@ -4178,7 +4178,7 @@ section.mini-services {
         font-weight: 600;
         color: #3b3f54; }
       section.mini-services .single-service .ss-content p {
-        font-family: "Circular Std Book";
+        font-family: "Roboto";
         font-size: 16px;
         line-height: 24px;
         padding-bottom: 20px; }
@@ -4266,7 +4266,7 @@ section.fun-fact {
     section.fun-fact .single-fune-fact p {
       font-size: 24px;
       color: #6e707d;
-      font-family: "Circular Std"; }
+      font-family: "Roboto"; }
 
 section.fun-fact-2 {
   position: relative;
@@ -4498,7 +4498,7 @@ section.sign-up {
       font-size: 60px;
       line-height: 72px; }
     section.sign-up .sign-up-content p {
-      font-family: 'Circular Std';
+      font-family: 'Roboto';
       font-weight: 500;
       font-size: 28px;
       line-height: 38px;
@@ -7146,7 +7146,7 @@ Responsive Style
     padding: 0; }
 
   section.case-sd-content .csc-text p {
-    font-family: "Circular Std Book"; }
+    font-family: "Roboto"; }
 
   section.contact-us .contact-details {
     padding-top: 0; }
